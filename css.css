@@ -1,0 +1,1299 @@
+body {
+  background-color: #1d1e1e;
+  font-family: "Fire Sans", sans-serif;
+}
+
+h1 {
+  color: yellow;
+}
+
+i {
+  margin-right: 0.5em;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8em;
+  margin-top: 2em;
+}
+
+.normal_font {
+	color: white;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.departure-board {
+  display: inline-flex;
+}
+
+.letter {
+  background-color: #000;
+  border-right: 1px solid #1d1e1e;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+.letter::before {
+  background-color: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 40px;
+  /*font-size: 40px;*/
+  /*height: 20px;*/
+  height: 20px;
+  /*line-height: 40px;*/
+  line-height: 40px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 20;
+}
+
+.letter::after {
+  background-color: #000;
+  flex-grow: 0;
+  font-size: 40px;
+  /*font-size: 40px;*/
+  /*height: 40px;*/
+  height: 40px;
+  /*line-height: 40px;*/
+  line-height: 40px;
+  margin-top: -50%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Blank letter */
+.letter-blank::before {
+  content: " ";
+}
+
+.letter-blank::after {
+  content: " ";
+}
+
+/* dynamic function for character classes */
+.letter-A::before {
+  content: "A";
+}
+
+.letter-A::after {
+  content: "A";
+}
+
+.letter-B::before {
+  content: "B";
+}
+
+.letter-B::after {
+  content: "B";
+}
+
+.letter-C::before {
+  content: "C";
+}
+
+.letter-C::after {
+  content: "C";
+}
+
+.letter-D::before {
+  content: "D";
+}
+
+.letter-D::after {
+  content: "D";
+}
+
+.letter-E::before {
+  content: "E";
+}
+
+.letter-E::after {
+  content: "E";
+}
+
+.letter-F::before {
+  content: "F";
+}
+
+.letter-F::after {
+  content: "F";
+}
+
+.letter-G::before {
+  content: "G";
+}
+
+.letter-G::after {
+  content: "G";
+}
+
+.letter-H::before {
+  content: "H";
+}
+
+.letter-H::after {
+  content: "H";
+}
+
+.letter-I::before {
+  content: "I";
+}
+
+.letter-I::after {
+  content: "I";
+}
+
+.letter-J::before {
+  content: "J";
+}
+
+.letter-J::after {
+  content: "J";
+}
+
+.letter-K::before {
+  content: "K";
+}
+
+.letter-K::after {
+  content: "K";
+}
+
+.letter-L::before {
+  content: "L";
+}
+
+.letter-L::after {
+  content: "L";
+}
+
+.letter-M::before {
+  content: "M";
+}
+
+.letter-M::after {
+  content: "M";
+}
+
+.letter-N::before {
+  content: "N";
+}
+
+.letter-N::after {
+  content: "N";
+}
+
+.letter-O::before {
+  content: "O";
+}
+
+.letter-O::after {
+  content: "O";
+}
+
+.letter-P::before {
+  content: "P";
+}
+
+.letter-P::after {
+  content: "P";
+}
+
+.letter-Q::before {
+  content: "Q";
+}
+
+.letter-Q::after {
+  content: "Q";
+}
+
+.letter-R::before {
+  content: "R";
+}
+
+.letter-R::after {
+  content: "R";
+}
+
+.letter-S::before {
+  content: "S";
+}
+
+.letter-S::after {
+  content: "S";
+}
+
+.letter-T::before {
+  content: "T";
+}
+
+.letter-T::after {
+  content: "T";
+}
+
+.letter-U::before {
+  content: "U";
+}
+
+.letter-U::after {
+  content: "U";
+}
+
+.letter-V::before {
+  content: "V";
+}
+
+.letter-V::after {
+  content: "V";
+}
+
+.letter-W::before {
+  content: "W";
+}
+
+.letter-W::after {
+  content: "W";
+}
+
+.letter-X::before {
+  content: "X";
+}
+
+.letter-X::after {
+  content: "X";
+}
+
+.letter-Y::before {
+  content: "Y";
+}
+
+.letter-Y::after {
+  content: "Y";
+}
+
+.letter-Z::before {
+  content: "Z";
+}
+
+.letter-Z::after {
+  content: "Z";
+}
+
+.letter-0::before {
+  content: "0";
+}
+
+.letter-0::after {
+  content: "0";
+}
+
+.letter-1::before {
+  content: "1";
+}
+
+.letter-1::after {
+  content: "1";
+}
+
+.letter-2::before {
+  content: "2";
+}
+
+.letter-2::after {
+  content: "2";
+}
+
+.letter-3::before {
+  content: "3";
+}
+
+.letter-3::after {
+  content: "3";
+}
+
+.letter-4::before {
+  content: "4";
+}
+
+.letter-4::after {
+  content: "4";
+}
+
+.letter-5::before {
+  content: "5";
+}
+
+.letter-5::after {
+  content: "5";
+}
+
+.letter-6::before {
+  content: "6";
+}
+
+.letter-6::after {
+  content: "6";
+}
+
+.letter-7::before {
+  content: "7";
+}
+
+.letter-7::after {
+  content: "7";
+}
+
+.letter-8::before {
+  content: "8";
+}
+
+.letter-8::after {
+  content: "8";
+}
+
+.letter-9::before {
+  content: "9";
+}
+
+.letter-9::after {
+  content: "9";
+}
+
+/* Letter animations */
+.departure-board span:nth-child(1):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 0.25s;
+}
+
+.departure-board span:nth-child(1):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 0.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(2):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 0.5s;
+}
+
+.departure-board span:nth-child(2):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(3):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 0.75s;
+}
+
+.departure-board span:nth-child(3):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 0.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(4):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 1s;
+}
+
+.departure-board span:nth-child(4):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 1s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(5):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 1.25s;
+}
+
+.departure-board span:nth-child(5):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 1.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(6):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 1.5s;
+}
+
+.departure-board span:nth-child(6):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 1.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(7):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 1.75s;
+}
+
+.departure-board span:nth-child(7):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 1.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(8):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 2s;
+}
+
+.departure-board span:nth-child(8):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 2s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(9):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 2.25s;
+}
+
+.departure-board span:nth-child(9):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 2.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(10):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 2.5s;
+}
+
+.departure-board span:nth-child(10):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 2.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(11):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 2.75s;
+}
+
+.departure-board span:nth-child(11):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 2.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 2.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(12):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 3s;
+}
+
+.departure-board span:nth-child(12):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 3s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(13):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 3.25s;
+}
+
+.departure-board span:nth-child(13):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 3.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(14):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 3.5s;
+}
+
+.departure-board span:nth-child(14):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 3.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(15):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 3.75s;
+}
+
+.departure-board span:nth-child(15):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 3.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 3.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(16):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 4s;
+}
+
+.departure-board span:nth-child(16):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 4s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(17):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 4.25s;
+}
+
+.departure-board span:nth-child(17):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 4.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(18):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 4.5s;
+}
+
+.departure-board span:nth-child(18):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 4.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(19):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 4.75s;
+}
+
+.departure-board span:nth-child(19):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 4.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 4.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(20):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 5s;
+}
+
+.departure-board span:nth-child(20):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(21):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 5.25s;
+}
+
+.departure-board span:nth-child(21):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 5.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(22):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 5.5s;
+}
+
+.departure-board span:nth-child(22):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 5.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(23):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 5.75s;
+}
+
+.departure-board span:nth-child(23):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 5.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 5.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(24):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 6s;
+}
+
+.departure-board span:nth-child(24):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 6s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(25):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 6.25s;
+}
+
+.departure-board span:nth-child(25):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 6.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(26):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 6.5s;
+}
+
+.departure-board span:nth-child(26):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 6.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(27):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 6.75s;
+}
+
+.departure-board span:nth-child(27):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 6.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 6.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(28):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 7s;
+}
+
+.departure-board span:nth-child(28):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 7s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(29):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 7.25s;
+}
+
+.departure-board span:nth-child(29):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 7.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(30):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 7.5s;
+}
+
+.departure-board span:nth-child(30):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 7.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(31):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 7.75s;
+}
+
+.departure-board span:nth-child(31):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 7.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 7.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(32):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 8s;
+}
+
+.departure-board span:nth-child(32):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 8s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(33):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 8.25s;
+}
+
+.departure-board span:nth-child(33):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 8.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(34):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 8.5s;
+}
+
+.departure-board span:nth-child(34):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 8.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(35):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 8.75s;
+}
+
+.departure-board span:nth-child(35):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 8.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 8.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(36):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 9s;
+}
+
+.departure-board span:nth-child(36):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 9s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(37):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 9.25s;
+}
+
+.departure-board span:nth-child(37):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 9.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(38):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 9.5s;
+}
+
+.departure-board span:nth-child(38):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 9.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(39):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 9.75s;
+}
+
+.departure-board span:nth-child(39):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 9.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 9.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(40):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 10s;
+}
+
+.departure-board span:nth-child(40):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 10s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(41):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 10.25s;
+}
+
+.departure-board span:nth-child(41):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 10.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(42):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 10.5s;
+}
+
+.departure-board span:nth-child(42):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 10.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(43):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 10.75s;
+}
+
+.departure-board span:nth-child(43):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 10.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 10.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(44):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 11s;
+}
+
+.departure-board span:nth-child(44):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 11s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(45):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 11.25s;
+}
+
+.departure-board span:nth-child(45):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 11.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(46):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 11.5s;
+}
+
+.departure-board span:nth-child(46):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 11.5s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(47):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 11.75s;
+}
+
+.departure-board span:nth-child(47):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 11.75s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 11.75s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(48):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 12s;
+}
+
+.departure-board span:nth-child(48):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 12s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(49):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 12.25s;
+}
+
+.departure-board span:nth-child(49):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12.25s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 12.25s;
+  transform-style: preserve-3d;
+}
+
+.departure-board span:nth-child(50):before {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition-delay: 12.5s;
+}
+
+.departure-board span:nth-child(50):after {
+  animation: flip 1s 1 ease-in-out;
+  animation-delay: 12.5s;
+  animation-fill-mode: forwards;
+  backface-visibility: hidden;
+  transition-delay: 12.5s;
+  transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  0% {
+    color: #000;
+    transform: rotateX(0deg);
+  }
+  20% {
+    content: "P";
+    transform: rotateX(360deg);
+  }
+  40% {
+    color: #fff;
+    content: "Y";
+    transform: rotateX(0deg);
+  }
+  60% {
+    color: #fff;
+    content: "X";
+    transform: rotateX(360deg);
+  }
+  80% {
+    color: #fff;
+    content: "C";
+    transform: rotateX(0deg);
+  }
+  100% {
+    color: #fff;
+    transform: rotateX(360deg);
+  }
+}
