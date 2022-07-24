@@ -1,5 +1,5 @@
 # Airport-departure-board
-This was made to run on a system with Apache and PHP. I used php 8 and linux but should run with other options.
+This was made to run on a system with Apache and PHP. I used php 8 and linux but should run with other options. Ensure you have php-curl installed (see here how to install it: https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init)
 
 Once you copy these files to your root folder, you can go to base.php and something should show up. 
 
