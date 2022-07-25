@@ -1,7 +1,7 @@
-# Airport-departure-board
-This was made to run on a system with Apache and PHP. I used php 8 and linux but should run with other options. Ensure you have php-curl installed (see here how to install it: https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init)
+# Airport departure board
+This was made to run on a system with Apache and PHP. I used php 8 and linux but should run with other options. Good operation has also been reported with lighhttpd and php 7.3. Ensure you have php-curl installed (see here how to install it: https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init)
 
-Don´t forget to get you https://airlabs.co/ key and insert in api.php.
+Don´t forget to get your https://airlabs.co/ API key and insert it in api.php.
 
 Free version of API requests limit per month is 1000 but you can request double that by email (the procedure is explained on the automated email you receive upon registration). With 2000 requests per month you have to control yourself: in the worst case scenario (which is a 31-day month) you can only make 64 requests per day or 2 requests per hour or 1 request every 30 minutes.
 
