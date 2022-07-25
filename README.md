@@ -1,4 +1,7 @@
 # Airport departure board
+
+![alt text](https://github.com/commacmms/Airport-departure-board/blob/main/HowItLooksResized.jpg?raw=true)
+
 This was made to run on a system with Apache and PHP. I used php 8 and linux but should run with other options. Good operation has also been reported with lighhttpd and php 7.3. Ensure you have php-curl installed (see here how to install it: https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init)
 
 Don´t forget to get your https://airlabs.co/ API key and insert it in api.php.
