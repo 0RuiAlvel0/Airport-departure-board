@@ -5,13 +5,13 @@
 	
 	//Provides connection to the API that delivers airport arrival and departure times
 	//API related settings:
-	$api_key = "ENTER_YOUR_KEY_HERE";
+	$api_key = "be4a2308-dbc8-499b-8b80-959a23889660";
 	$api_base = "https://airlabs.co/api/v9/";
 	
 	//read the settings file and get the selected ICAO airport 4 letter code
 	$settings_file = fopen("settings", "r") or die("Unable to open settings file!");
-	$contents = fread($settings_file,filesize("settings"));
-	$apt_code = explode(' ', $contents);
+	$contents = fread($settings_file, filesize("settings"));
+	$apt_code = explode("\t", $contents);
 	$icao_code = trim($apt_code[0]);
 	fclose($settings_file);
 	
@@ -19,66 +19,101 @@
 	$params = array();
 	$params["arr_icao"] = $icao_code;
 	$params["api_key"] = $api_key;
-	
 	$arrivals_results = apiCall($api_base, 'schedules', $params);
 	
 	//Make the API request for departures
 	$params = array();
 	$params["dep_icao"] = $icao_code;
 	$params["api_key"] = $api_key;
-	
 	$departures_results = apiCall($api_base, 'schedules', $params);
 
-	//Send out arrival data formatted for the output
-	//time, carrier logo, flight, origin, status
+	//No error encountered so far
 	$data['error'] = false;
-	
+
 	//The airport the user selected (this is displayed at the top):
 	$data['airport'] = airport_name($icao_code, 0, 13);
-	
+
+	//Compute time difference (in hours) between UTC and airport local time
 	$data['utc_offset'] = 0;
+	if(sizeof($arrivals_results["response"]) > 0){
+		$arr_time_utc = $arrivals_results["response"][0]["arr_time_utc"];
+		$airport_arr_time = $arrivals_results["response"][0]["arr_time"];
+		$aux1 = strtotime($arr_time_utc);
+		$aux2 = strtotime($airport_arr_time);
+		$data['utc_offset'] = ($aux2 - $aux1) / 3600;
+	}
+
+	//Compute airport local timestamp
+	$gmt = gmdate("Y-m-d H:i");
+	$utc = new DateTime($gmt);
+	$utc_timestamp = $utc->getTimestamp();
+	$now = $utc_timestamp + ($data['utc_offset'] * 60 * 60);
+
+        //Send out arrival data formatted for the output
+        //time, carrier logo, flight, origin, status
+	$row = -1;
 	for($i = 0; $i < sizeof($arrivals_results["response"]); $i++){
+
+                $earlier = new DateTime($arrivals_results["response"][$i]["arr_time"]);
+                $earlier = $earlier->getTimestamp();
+		$span = (int)(($now - $earlier) / 3600);
+		if ($span > 0) continue;
+
+                $row = $row + 1;
+
 		$aux = explode(" ", $arrivals_results["response"][$i]["arr_time"]);
-		$data['arrivals'][$i]['arr_time'] = $aux[1];
-		$data['arrivals'][$i]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$arrivals_results["response"][$i]["airline_iata"].".png";
-		$data['arrivals'][$i]['flight_iata'] = substr($arrivals_results["response"][$i]["flight_iata"], 0, 5);
+		$data['arrivals'][$row]['arr_time'] = $aux[1];
+		$data['arrivals'][$row]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$arrivals_results["response"][$i]["airline_iata"].".png";
+		$data['arrivals'][$row]['flight_iata'] = substr($arrivals_results["response"][$i]["flight_iata"], 0, 6);
 		//Dep ICAO, for this we need to translate the code to the text of the airport:
-		$data['arrivals'][$i]['origin'] = substr(airport_name($arrivals_results["response"][$i]["dep_icao"]), 0, 13);
+		$data['arrivals'][$row]['origin'] = substr(airport_name($arrivals_results["response"][$i]["dep_icao"]), 0, 13);
 		if(trim(strtoupper($arrivals_results["response"][$i]["status"])) != "ACTIVE")
-			$data['arrivals'][$i]['status'] = $arrivals_results["response"][$i]["status"];
-		else
-			$data['arrivals'][$i]['status'] = "ESTIMATED";
-		
-		//Use the last item to assess the UTC offset to be used to display the local airport time
-		$utc_time = $arrivals_results["response"][$i]["arr_time_utc"];
-		$airport_time = $arrivals_results["response"][$i]["arr_time"];
-			
-		if($i >= $num_of_rows){
+			$data['arrivals'][$row]['status'] = $arrivals_results["response"][$i]["status"];
+		else{
+			$aux = explode(" ", $arrivals_results["response"][$i]["arr_estimated"]);
+			$data['arrivals'][$row]['status'] = "EST.".$aux[1];
+		}
+
+		if($row >= $num_of_rows){
 			break;
 		}
 	}
-	
-	//Use the last item to assess the UTC offset to be used to display the local airport time
-	$aux1 = strtotime($utc_time);
-	$aux2 = strtotime($airport_time);
-	
-	$data['utc_offset'] = ($aux2 - $aux1) / 3600;
-	
+
+	//No error encountered so far
+	$data['error'] = false;
+
 	//Send out departure data formatted for the output
 	//time, carrier logo, flight, destination, status
-	$data['error'] = false;
+	$row = -1;
 	for($i = 0; $i < sizeof($departures_results["response"]); $i++){
+
+                $earlier = new DateTime($departures_results["response"][$i]["dep_time"]);
+                $earlier = $earlier->getTimestamp();
+                $span = (int)(($now - $earlier) / 3600);
+                if ($span > 0) continue;
+
+                $row = $row + 1;
+                //$data['arrivals'][$row]['span'] = (string)($span);
+
 		$aux = explode(" ", $departures_results["response"][$i]["dep_time"]);
-		$data['departures'][$i]['dep_time'] = $aux[1];
-		$data['departures'][$i]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$departures_results["response"][$i]["airline_iata"].".png";
-		$data['departures'][$i]['flight_iata'] = substr($departures_results["response"][$i]["flight_iata"], 0, 5);
+		$data['departures'][$row]['dep_time'] = $aux[1];
+		$data['departures'][$row]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$departures_results["response"][$i]["airline_iata"].".png";
+		$data['departures'][$row]['flight_iata'] = substr($departures_results["response"][$i]["flight_iata"], 0, 6);
 		//Dep ICAO, for this we need to translate the code to the text of the airport:
-		$data['departures'][$i]['destination'] = substr(airport_name($departures_results["response"][$i]["arr_icao"]), 0, 13);
-		if(trim(strtoupper($departures_results["response"][$i]["status"])) != "ACTIVE")
-			$data['departures'][$i]['status'] = $departures_results["response"][$i]["status"];
+		$data['departures'][$row]['destination'] = substr(airport_name($departures_results["response"][$i]["arr_icao"]), 0, 13);
+		$status = trim(strtoupper($departures_results["response"][$i]["status"]));
+		if($status != "ACTIVE"){
+			if ($status == "SCHEDULED" and $departures_results["response"][$i]["dep_estimated"] != "") {
+				$aux = explode(" ", $departures_results["response"][$i]["dep_estimated"]);
+				$data['departures'][$row]['status'] = "SCHE.".$aux[1];
+			}
+			else
+				$data['departures'][$row]['status'] = $status;
+		}
 		else
-			$data['departures'][$i]['status'] = "BRDING CLSED";
-		if($i >= $num_of_rows)
+			$data['departures'][$row]['status'] = "EN ROUTE";
+
+		if($row >= $num_of_rows)
 			break;
 	}
 	

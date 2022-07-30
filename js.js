@@ -4,8 +4,8 @@ function DisplayCurrentTime() {
 	$('.local_time').html(dt.toLocaleTimeString());
 	
 	//Deal with the airport time
-	airport_dt = dt.getTime() + ($('#utc_offset').val() * 60 * 60 * 1000) - (dt.getTimezoneOffset() * 60 * 1000);
-	airport_dt = new Date(airport_dt - dt.getTimezoneOffset() * 60 * 1000);
+	airport_dt = dt.getTime() + ($('#utc_offset').val() * 60 * 60 * 1000) + (dt.getTimezoneOffset() * 60 * 1000);
+	airport_dt = new Date(airport_dt);
 	$('.apt_time').text(airport_dt.toLocaleTimeString());
 	
 	window.setTimeout('DisplayCurrentTime()', refresh);
@@ -25,10 +25,9 @@ function fill(){
 					$('.apt_name').html(data['airport']);
 					$('#utc_offset').val(data['utc_offset']);
 					for(i = 0; i < $('#num_of_rows').val(); i++){
-
 						//****ARRIVALS
 						arrivals_section_contents = '';
-						//arrival time
+ 						//arrival time
 						chars = data['arrivals'][i]['arr_time'].split('');
 						for (char = 0; char < chars.length; char++){
 							if(chars[char] != ':')
@@ -40,7 +39,7 @@ function fill(){
 						//flight
 						chars = [];
 						chars = Array.from(data['arrivals'][i]['flight_iata']);
-						for (char = 0; char < 5; char++){
+						for (char = 0; char < 6; char++){
 							if(char >= chars.length)
 								arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-blank"></span>';
 							else
@@ -64,8 +63,10 @@ function fill(){
 						for (char = 0; char < 10; char++){
 							if(char >= chars.length)
 								arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-blank"></span>';
-							else
-								arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+							else{
+								if (chars[char] != ":")
+									arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+							}
 						}
 						//****END ARRIVALS
 						//****DEPARTURES
@@ -82,16 +83,16 @@ function fill(){
 						//flight
 						chars = [];
 						chars = Array.from(data['departures'][i]['flight_iata']);
-						for (char = 0; char < 5; char++){
+						for (char = 0; char < 6; char++){
 							if(char >= chars.length)
 								departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
 							else
 								departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
 						}
-						//origin
+						//destination
 						chars = [];
 						chars = Array.from(data['departures'][i]['destination'].toUpperCase());
-						//give ity a space between flight number and the origin
+						//give ity a space between flight number and the destination
 						departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
 						for (char = 0; char < 13; char++){
 							if(char >= chars.length)
@@ -106,8 +107,10 @@ function fill(){
 						for (char = 0; char < 10; char++){
 							if(char >= chars.length)
 								departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-							else
-								departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+							else{
+								if (chars[char] != ":")
+									departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+							}
 						}
 						//****END DEPARTURES
 

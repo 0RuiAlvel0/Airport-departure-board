@@ -1,602 +1,688 @@
-HTZA 	ZNZ 	Abeid Amani Karume International Airport 	Zanzibar 	Tanzania
-HAAB 	ADD 	Addis Ababa Bole International Airport 	Addis Ababa 	Ethiopia
-DNAI 	QUO 	Akwa Ibom International Airport 	Uyo 	Nigeria
-GVAC 	SID 	Amílcar Cabral International Airport 	Espargos 	Cape Verde
-GOBD 	DSS 	Diass-Thies Blaise Diagne International Airport 	Dakar 	Senegal
-HECA 	CAI 	Cairo International Airport 	Cairo 	Egypt
-FACT 	CPT 	Cape Town International Airport 	Cape Town 	South Africa
-DRRN 	NIM 	Diori Hamani International Airport 	Niamey 	Niger
-DTNH 	NBE 	Enfidha - Hammamet International Airport 	Enfidha 	Tunisia
-HUEN 	EBB 	Entebbe International Airport 	Kampala 	Uganda
-FAGG 	GRJ 	George Airport 	George 	South Africa
-FYWH 	WDH 	Hosea Kutako International Airport 	Windhoek 	Namibia
-DAAG 	ALG 	Algiers Houari Boumediene Airport 	Algiers 	Algeria
-HEGN 	HRG 	Hurghada International Airport 	Hurghada 	Egypt
-FMMI 	TNR 	Ivato Airport 	Antananarivo 	Madagascar
-HKJK 	NBO 	Jomo Kenyatta International Airport 	Nairobi 	Kenya
-HSSJ 	JUB 	Juba International Airport 	Juba 	South Sudan
-HTDA 	DAR 	Julius Nyerere International Airport 	Dar es Salaam 	Tanzania
-FLKK 	LUN 	Kenneth Kaunda International Airport Lusaka 	Lusaka 	Zambia
-HSSS 	KRT 	Khartoum International Airport 	Khartoum 	Sudan
-HRYR 	KGL 	Kigali International Airport 	Kigali 	Rwanda
-FALE 	DUR 	King Shaka International Airport 	Durban 	South Africa
-DGAA 	ACC 	Kotoka International Airport 	Accra 	Ghana
-GOOY 	DKR 	Léopold Sédar Senghor International Airport 	Dakar 	Senegal
-GFLL 	FNA 	Lungi International Airport 	Freetown 	Sierra Leone
-HELX 	LXR 	Luxor International Airport 	Luxor 	Egypt
-DNKN 	KAN 	Mallam Aminu International Airport 	Kano 	Nigeria
-FQMA 	MPM 	Maputo Airport 	Maputo 	Mozambique
-GABS 	BKO 	Modibo Keita International Airport 	Bamako 	Mali
-GMMN 	CMN 	Mohammed V International Airport 	Casablanca 	Morocco
-HKMO 	MBA 	Mombasa Moi International Airport 	Mombasa 	Kenya
-DNMM 	LOS 	Murtala Muhammed International Airport 	Lagos 	Nigeria
-FTTJ 	NDJ 	N'Djamena International Airport 	N'Djamena 	Chad
-FZAA 	FIH 	Ndjili International Airport 	Kinshasa 	Congo (Kinshasa)
-DNAA 	ABV 	Nnamdi Azikiwe International Airport 	Abuja 	Nigeria
-GQNO 	NKC 	Nouakchott–Oumtounsy International Airport 	Nouakchott 	Mauritania
-FAOR 	JNB 	OR Tambo International Airport 	Johannesburg 	South Africa
-DFFD 	OUA 	Ouagadougou Airport 	Ouagadougou 	Burkina Faso
-FNLU 	LAD 	Quatro de Fevereiro Airport 	Luanda 	Angola
-FVRG 	HRE 	Robert Gabriel Mugabe International Airport 	Harare 	Zimbabwe
-GLRB 	ROB 	Roberts International Airport 	Monrovia 	Liberia
-FSIA 	SEZ 	Seychelles International Airport 	Mahe Island 	Seychelles
-FIMP 	MRU 	Sir Seewoosagur Ramgoolam International Airport 	Port Louis 	Mauritius
-FBSK 	GBE 	Sir Seretse Khama International Airport 	Gaborone 	Botswana
-HLLT 	TIP 	Tripoli International Airport 	Tripoli 	Libya
-DTTA 	TUN 	Tunis Carthage International Airport 	Tunis 	Tunisia
-OMAA 	AUH 	Abu Dhabi International Airport 	Abu Dhabi 	United Arab Emirates
-LTAF 	ADA 	Adana Airport 	Adana 	Turkey
-LTBJ 	ADB 	Adnan Menderes International Airport 	İzmir 	Turkey
-OMDW 	DWC 	Al Maktoum International Airport 	Jebel Ali 	United Arab Emirates
-OSAP 	ALP 	Aleppo International Airport 	Aleppo 	Syria
-UAAA 	ALA 	Almaty Airport 	Almaty 	Kazakhstan
-LTAI 	AYT 	Antalya International Airport 	Antalya 	Turkey
-UTAA 	ASB 	Ashgabat International Airport 	Ashgabat 	Turkmenistan
-UACC 	TSE 	Astana International Airport 	Astana 	Kazakhstan
-LTBA 	IST 	Istanbul Ataturk Airport 	Istanbul 	Turkey
-ORBI 	BGW 	Baghdad International Airport 	Baghdad 	Iraq
-OBBI 	BAH 	Bahrain International Airport 	Manama 	Bahrain
-ZBHH 	HET 	Baita International Airport 	Hohhot 	China
-VCBI 	CMB 	Bandaranaike International Colombo Airport 	Colombo 	Sri Lanka
-ORMM 	BSR 	Basrah International Airport 	Basrah 	Iraq
-OSLK 	LTK 	Bassel Al-Assad International Airport 	Latakia 	Syria
-ZBAA 	PEK 	Beijing Capital International Airport 	Beijing 	China
-ZBAD 	PKX 	Beijing Daxing International Airport 	Beijing 	China
-ZBNY 	NAY 	Beijing Nanyuan Airport 	Beijing 	China
-OLBA 	BEY 	Beirut Rafic Hariri International Airport 	Beirut 	Lebanon
-LLBG 	TLV 	Ben Gurion International Airport 	Tel Aviv 	Israel
-WBSB 	BWN 	Brunei International Airport 	Bandar Seri Begawan 	Brunei
-VOCL 	CCJ 	Calicut International Airport 	Calicut 	India
-ZGHA 	CSX 	Changsha Huanghua International Airport 	Changsha 	China
-ZUUU 	CTU 	Chengdu Shuangliu International Airport 	Chengdu 	China
-VOMM 	MAA 	Chennai International Airport 	Chennai 	India
-VABB 	BOM 	Mumbai International Airport 	Mumbai 	India
-VTCC 	CNX 	Chiang Mai International Airport 	Chiang Mai 	Thailand
-ZMUB 	ULN 	Chinggis Khaan International Airport 	Ulan Bator 	Mongolia
-ZMCK 	ULN 	Chinggis Khaan International Airport 	Mongolia 	Mongolia
-ZUCK 	CKG 	Chongqing Jiangbei International Airport 	Chongqing 	China
-RJGG 	NGO 	Chubu Centrair International Airport 	Tokoname 	Japan
-VOCI 	COK 	Cochin International Airport 	Kochi 	India
-VVDN 	DAD 	Da Nang International Airport 	Da Nang 	Vietnam
-VOGO 	GOI 	Dabolim Airport 	Vasco da Gama 	India
-LTBS 	DLM 	Dalaman International Airport 	Dalaman 	Turkey
-OSDI 	DAM 	Damascus International Airport 	Damascus 	Syria
-RPLC 	CRK 	Diosdado Macapagal International Airport 	Angeles/Mabalacat 	Philippines
-WASS 	SOQ 	Dominique Edward Osok Airport 	Sorong-Papua Island 	Indonesia
-VTBD 	DMK 	Don Mueang International Airport 	Bangkok 	Thailand
-OMDB 	DXB 	Dubai International Airport 	Dubai 	United Arab Emirates
-OODQ 	DQM 	Duqm International Airport 	Duqm 	Oman
-LTCE 	ERZ 	Erzurum International Airport 	Erzurum 	Turkey
-LTAC 	ESB 	Esenboğa International Airport 	Ankara 	Turkey
-RPMD 	DVO 	Francisco Bangoy International Airport 	Davao City 	Philippines
-RJFF 	FUK 	Fukuoka Airport 	Fukuoka 	Japan
-ZSFZ 	FOC 	Fuzhou Changle International Airport 	Fuzhou 	China
-LTAJ 	GZT 	Gaziantep International Airport 	Gaziantep 	Turkey
-RKPK 	PUS 	Gimhae International Airport 	Busan 	South Korea
-RKSS 	GMP 	Gimpo International Airport 	Seoul 	South Korea
-ZGGG 	CAN 	Guangzhou Baiyun International Airport 	Guangzhou 	China
-ZGKL 	KWL 	Guilin Liangjiang International Airport 	Guilin City 	China
-ZJHK 	HAK 	Haikou Meilan International Airport 	Haikou 	China
-OTHH 	DOH 	Hamad International Airport 	Doha 	Qatar
-ZSHC 	HGH 	Hangzhou Xiaoshan International Airport 	Hangzhou 	China
-WAAA 	UPG 	Hasanuddin International Airport 	Ujung Pandang-Celebes Island 	Indonesia
-VGHS 	DAC 	Hazrat Shahjalal International Airport 	Dhaka 	Bangladesh
-UBBB 	GYD 	Heydar Aliyev International Airport 	Baku 	Azerbaijan
-VHHH 	HKG 	Hong Kong International Airport 	Hong Kong 	Hong Kong
-OIIE 	IKA 	Imam Khomeini International Airport 	Tehran 	Iran
-RKSI 	ICN 	Seoul Incheon International Airport 	Seoul 	South Korea
-VIDP 	DEL 	Indira Gandhi International Airport 	New Delhi 	India
-LTFM 	IST 	İstanbul New Airport 	Istanbul 	Turkey
-RKPC 	CJU 	Jeju International Airport 	Jeju City 	South Korea
-WARR 	SUB 	Juanda International Airport 	Surabaya 	Indonesia
-RODN 	DNA 	Kadena Air Base 	Nakagami 	Japan
-RJFK 	KOJ 	Kagoshima Airport 	Kagoshima 	Japan
-RJBB 	KIX 	Kansai International Airport 	Osaka 	Japan
-RCKH 	KHH 	Kaohsiung International Airport 	Kaohsiung City 	Taiwan
-VOBL 	BLR 	Kempegowda International Airport 	Bangalore 	India
-UHHH 	KHV 	Khabarovsk-Novy Airport 	Khabarovsk 	Russia
-OEDR 	DHA 	King Abdulaziz Air Base 	Dhahran 	Saudi Arabia
-OEJN 	JED 	King Abdulaziz International Airport 	Jeddah 	Saudi Arabia
-OEDF 	DMM 	King Fahd International Airport 	Ad Dammam 	Saudi Arabia
-OERK 	RUH 	King Khaled International Airport 	Riyadh 	Saudi Arabia
-RCBS 	KNH 	Kinmen Airport 	Shang-I 	Taiwan
-USSS 	SVX 	Koltsovo Airport 	Yekaterinburg 	Russia
-WMKK 	KUL 	Kuala Lumpur International Airport 	Kuala Lumpur 	Malaysia
-WIMM 	KNO 	Kualanamu International Airport 		Indonesia
-ZPPP 	KMG 	Kunming Changshui International Airport 	Kunming 	China
-RKJK 	KUV 	Kunsan Air Base 	Kunsan 	South Korea
-OKBK 	KWI 	Kuwait International Airport 	Kuwait City 	Kuwait
-RPMY 	CGY 	Laguindingan Airport 	Cagayan de Oro City 	Philippines
-LCLK 	LCA 	Larnaca International Airport 	Larnarca 	Cyprus
-ZUGY 	KWE 	Longdongbao Airport 	Guiyang 	China
-VMMC 	MFM 	Macau International Airport 	Macau 	Macau
-RPVM 	CEB 	Mactan Cebu International Airport 	Lapu-Lapu City 	Philippines
-VRMM 	MLE 	Malé International Airport 	Malé 	Maldives
-UCFM 	FRU 	Manas International Airport 	Bishkek 	Kyrgyzstan
-VYMD 	MDL 	Mandalay International Airport 	Mandalay 	Burma
-OIMM 	MHD 	Mashhad International Airport 	Mashhad 	Iran
-VCRI 	HRI 	Mattala Rajapaksa International Airport 	Mattalla 	Sri Lanka
-OIII 	THR 	Mehrabad International Airport 	Tehran 	Iran
-LTFE 	BJV 	Milas Bodrum Airport 	Bodrum 	Turkey
-RJNS 	FSZ 	Mt. Fuji Shizuoka Airport 	Makinohara / Shimada 	Japan
-RKJB 	MWX 	Muan International Airport 	Piseo-ri (Muan) 	South Korea
-OOMS 	MCT 	Muscat International Airport 	Muscat 	Oman
-ROAH 	OKA 	Naha Airport 	Naha 	Japan
-ZSNJ 	NKG 	Nanjing Lukou Airport 	Nanjing 	China
-ZGNN 	NNG 	Nanning Wuxu Airport 	Nanning 	China
-RJAA 	NRT 	Narita International Airport 	Tokyo 	Japan
-VECC 	CCU 	Netaji Subhash Chandra Bose International Airport 	Kolkata 	India
-RJCC 	CTS 	New Chitose Airport 	Chitose / Tomakomai 	Japan
-OPIS 	ISB 	New Islamabad International Airport 	Islamabad 	Pakistan
-WADD 	DPS 	Ngurah Rai (Bali) International Airport 	Denpasar-Bali Island 	Indonesia
-ZSNB 	NGB 	Ningbo Lishe International Airport 	Ningbo 	China
-RPLL 	MNL 	Ninoy Aquino International Airport 	Manila 	Philippines
-VVNB 	HAN 	Noi Bai International Airport 	Hanoi 	Vietnam
-RJOO 	ITM 	Osaka International Airport 	Osaka 	Japan
-RKSO 	OSN 	Osan Air Base 	Pyeongtaek 	South Korea
-LLOV 	VDA 	Ovda International Airport 	Eilat 	Israel
-LCPH 	PFO 	Paphos International Airport 	Paphos 	Cyprus
-VDPP 	PNH 	Phnom Penh International Airport 	Phnom Penh 	Cambodia
-VTSP 	HKT 	Phuket International Airport 	Phuket 	Thailand
-OEMA 	MED 	Prince Mohammad Bin Abdulaziz Airport 	Medina 	Saudi Arabia
-OJAI 	AMM 	Queen Alia International Airport 	Amman 	Jordan
-VOHS 	HYD 	Rajiv Gandhi International Airport 	Hyderabad 	India
-OORQ 	MNH 	Rustaq Airport 	Al Masna'ah 	Oman
-LTFJ 	SAW 	Sabiha Gökçen International Airport 	Istanbul 	Turkey
-ZJSY 	SYX 	Sanya Phoenix International Airport 	Sanya 	China
-UAKK 	KGF 	Sary-Arka Airport 	Karaganda 	Kazakhstan
-WAJJ 	DJJ 	Sentani International Airport 	Jayapura-Papua Island 	Indonesia
-ZSSS 	SHA 	Shanghai Hongqiao International Airport 	Shanghai 	China
-ZSPD 	PVG 	Shanghai Pudong International Airport 	Shanghai 	China
-OMSJ 	SHJ 	Sharjah International Airport 	Sharjah 	United Arab Emirates
-ZGSZ 	SZX 	Shenzhen Bao'an International Airport 	Shenzhen 	China
-OISS 	SYZ 	Shiraz Shahid Dastghaib International Airport 	Shiraz 	Iran
-OPST 	SKT 	Sialkot Airport 	Sialkot 	Pakistan
-VDSR 	REP 	Siem Reap International Airport 	Siem Reap 	Cambodia
-WSSS 	SIN 	Singapore Changi Airport 	Singapore 	Singapore
-WIII 	CGK 	Soekarno-Hatta International Airport 	Jakarta 	Indonesia
-VIAR 	ATQ 	Sri Guru Ram Dass Jee International Airport 	Amritsar 	India
-LTFC 	ISE 	Süleyman Demirel International Airport 	Isparta 	Turkey
-VTBS 	BKK 	Suvarnabhumi Airport 	Bangkok 	Thailand
-OITT 	TBZ 	Tabriz International Airport 	Tabriz 	Iran
-ZYHB 	HRB 	Taiping Airport 	Harbin 	China
-RCTP 	TPE 	Taiwan Taoyuan International Airport 	Taipei 	Taiwan
-ZBYN 	TYN 	Taiyuan Wusu Airport 	Taiyuan 	China
-VVTS 	SGN 	Tan Son Nhat International Airport 	Ho Chi Minh City 	Vietnam
-ZYTX 	SHE 	Taoxian Airport 	Shenyang 	China
-UTTT 	TAS 	Tashkent International Airport 	Tashkent 	Uzbekistan
-UGTB 	TBS 	Tbilisi International Airport 	Tbilisi 	Georgia
-ZBTJ 	TSN 	Tianjin Binhai International Airport 	Tianjin 	China
-RJTT 	HND 	Tokyo Haneda Airport 	Tokyo 	Japan
-UNNT 	OVB 	Tolmachevo Airport 	Novosibirsk 	Russia
-LTCG 	TZX 	Trabzon International Airport 	Trabzon 	Turkey
-VNKT 	KTM 	Tribhuvan International Airport 	Kathmandu 	Nepal
-VOTV 	TRV 	Trivandrum International Airport 	Thiruvananthapuram 	India
-ZWWW 	URC 	Ürümqi Diwopu International Airport 	Ürümqi 	China
-ZSWZ 	WNZ 	Wenzhou Longwan International Airport 	Wenzhou 	China
-ZHHH 	WUH 	Wuhan Tianhe International Airport 	Wuhan 	China
-ZLXY 	XIY 	Xi'an Xianyang International Airport 	Xi'an 	China
-ZSAM 	XMN 	Xiamen Gaoqi International Airport 	Xiamen 	China
-VYYY 	RGN 	Yangon International Airport 	Yangon 	Burma
-ZSJN 	TNA 	Yaoqiang Airport 	Jinan 	China
-RJTY 	OKO 	Yokota Air Base 	Fussa 	Japan
-ZHCC 	CGO 	Zhengzhou Xinzheng International Airport 	Zhengzhou 	China
-ZYTL 	DLC 	Zhoushuizi Airport 	Dalian 	China
-UDYZ 	EVN 	Zvartnots International Airport 	Yerevan 	Armenia
-EKYT 	AAL 	Aalborg Airport 	Aalborg 	Denmark
-EGPD 	ABZ 	Aberdeen Dyce Airport 	Aberdeen 	United Kingdom
-LEMD 	MAD 	Adolfo Suárez Madrid–Barajas Airport 	Madrid 	Spain
-LEAL 	ALC 	Alicante International Airport 	Alicante 	Spain
-EHAM 	AMS 	Amsterdam Airport Schiphol 	Amsterdam 	The Netherlands
-LFOA 		Avord (BA 702) Air Base 	Avord 	France
-LEBL 	BCN 	Barcelona–El Prat Airport 	Barcelona 	Spain
-LIBD 	BRI 	Bari Karol Wojtyła Airport 	Bari 	Italy
-EGAA 	BFS 	Belfast International Airport 	Belfast 	United Kingdom
-LYBE 	BEG 	Belgrade Nikola Tesla Airport 	Belgrade 	Serbia
-ENBR 	BGO 	Bergen Airport Flesland 	Bergen 	Norway
-EDDB 	SXF 	Berlin-Schönefeld Airport 	Berlin 	Germany
-EDDT 	TXL 	Berlin-Tegel Airport 	Berlin 	Germany
-EKBI 	BLL 	Billund Airport 	Billund 	Denmark
-EGBB 	BHX 	Birmingham International Airport 	Birmingham 	United Kingdom
-ENBO 	BOO 	Bodø Airport 	Bodø 	Norway
-LIPE 	BLQ 	Bologna Guglielmo Marconi Airport 	Bologna 	Italy
-LFBD 	BOD 	Bordeaux-Mérignac Airport 	Bordeaux 	France
-UWKG 		Borisoglebskoye Airport 	Kazan 	Russia
-UKBB 	KBP 	Boryspil International Airport 	Kiev 	Ukraine
-EGHH 	BOH 	Bournemouth Airport 	Bournemouth 	United Kingdom
-EDDW 	BRE 	Bremen Airport 	Bremen 	Germany
-EGGD 	BRS 	Bristol Airport 	Bristol 	United Kingdom
-EBBR 	BRU 	Brussels Airport 	Brussels 	Belgium
-EBCI 	CRL 	Brussels South Charleroi Airport 	Brussels 	Belgium
-LHBP 	BUD 	Budapest Liszt Ferenc International Airport 	Budapest 	Hungary
-LBBG 	BOJ 	Burgas Airport 	Burgas 	Bulgaria
-LIEE 	CAG 	Cagliari Elmas Airport 	Cagliari 	Italy
-EGFF 	CWL 	Cardiff International Airport 	Cardiff 	United Kingdom
-LICC 	CTA 	Catania-Fontanarossa Airport 	Catania 	Italy
-LFPG 	CDG 	Paris-Charles de Gaulle Airport 	Paris 	France
-LIRA 	CIA 	Rome–Ciampino International Airport "G. B. Pastine" 	Rome 	Italy
-EDDK 	CGN 	Cologne Bonn Airport 	Cologne 	Germany
-EKCH 	CPH 	Copenhagen Kastrup Airport 	Copenhagen 	Denmark
-EPWR 	WRO 	Copernicus Airport Wrocław 	Wrocław 	Poland
-EICK 	ORK 	Cork Airport 	Cork 	Ireland
-UUDD 	DME 	Domodedovo International Airport 	Moscow 	Russia
-EDLW 	DTM 	Dortmund Airport 	Dortmund 	Germany
-EDDC 	DRS 	Dresden Airport 	Dresden 	Germany
-EIDW 	DUB 	Dublin Airport 	Dublin 	Ireland
-EDDL 	DUS 	Düsseldorf Airport 	Düsseldorf 	Germany
-EGNX 	EMA 	East Midlands Airport 	Nottingham 	United Kingdom
-EGPH 	EDI 	Edinburgh Airport 	Edinburgh 	United Kingdom
-EHEH 	EIN 	Eindhoven Airport 	Eindhoven 	The Netherlands
-LGAV 	ATH 	Athens International Airport "Eleftherios Venizelos" 	Athens 	Greece
-LFSB 	BSL 	EuroAirport Basel-Mulhouse-Freiburg Airport 	Bâle/Mulhouse 	France
-EGTE 	EXT 	Exeter International Airport 	Exeter 	United Kingdom
-LICJ 	PMO 	Falcone–Borsellino Airport 	Palermo 	Italy
-LPFR 	FAO 	Faro Airport 	Faro 	Portugal
-LPPR 	OPO 	Francisco de Sá Carneiro Airport 	Porto 	Portugal
-EDDF 	FRA 	Frankfurt am Main Airport 	Frankfurt am Main 	Germany
-EPGD 	GDN 	Gdańsk Lech Wałęsa Airport 	Gdańsk 	Poland
-LSGG 	GVA 	Geneva Airport 	Geneva 	Switzerland
-LIMJ 	GOA 	Genoa Cristoforo Colombo Airport 	Genova 	Italy
-EGAC 	BHD 	George Best Belfast City Airport 	Belfast 	United Kingdom
-EGPF 	GLA 	Glasgow International Airport 	Glasgow 	United Kingdom
-ESGG 	GOT 	Gothenburg-Landvetter Airport 	Gothenburg 	Sweden
-GCLP 	LPA 	Gran Canaria Airport 	Gran Canaria Island 	Spain
-URMG 	GRV 	Grozny North Airport 	Grozny 	Russia
-EDDH 	HAM 	Hamburg Airport 	Hamburg 	Germany
-EDDV 	HAJ 	Hannover Airport 	Hannover 	Germany
-EFHK 	HEL 	Helsinki Vantaa Airport 	Helsinki 	Finland
-LROP 	OTP 	Bucharest Henri Coandă International Airport 	Bucharest 	Romania
-LGIR 	HER 	Heraklion International Nikos Kazantzakis Airport 	Heraklion 	Greece
-LPPT 	LIS 	Humberto Delgado Airport (Lisbon Portela Airport) 	Lisbon 	Portugal
-LIME 	BGY 	Il Caravaggio International Airport 	Bergamo 	Italy
-LPPD 	PDL 	João Paulo II Airport 	Ponta Delgada 	Portugal
-EDSB 	FKB 	Karlsruhe Baden-Baden Airport 	Baden-Baden 	Germany
-EPKT 	KTW 	Katowice International Airport 	Katowice 	Poland
-UWKD 	KZN 	Kazan International Airport 	Kazan 	Russia
-BIKF 	KEF 	Keflavik International Airport 	Reykjavík 	Iceland
-UKHH 	HRK 	Kharkiv International Airport 	Kharkiv 	Ukraine
-EPKK 	KRK 	Kraków John Paul II International Airport 	Kraków 	Poland
-UWWW 	KUF 	Kurumoch International Airport 	Samara 	Russia
-GCLA 	SPC 	La Palma Airport 	Sta Cruz de la Palma, La Palma Island 	Spain
-LPLA 	TER 	Lajes Airport 	Praia da Vitória 	Portugal
-EGNM 	LBA 	Leeds Bradford Airport 	Leeds 	United Kingdom
-EDDP 	LEJ 	Leipzig/Halle Airport 	Leipzig 	Germany
-EETN 	TLL 	Tallinn Airport 	Tallinn 	Estonia
-LIRF 	FCO 	Rome–Fiumicino International Airport "Leonardo da Vinci" 	Rome 	Italy
-EBLG 	LGG 	Liège Airport 	Liège 	Belgium
-EGGP 	LPL 	Liverpool John Lennon Airport 	Liverpool 	United Kingdom
-LJLJ 	LJU 	Ljubljana Jože Pučnik Airport 	Ljubljana 	Slovenia
-EGKK 	LGW 	London Gatwick Airport 	London 	United Kingdom
-EGLL 	LHR 	London Heathrow Airport 	London 	United Kingdom
-EGGW 	LTN 	London Luton Airport 	London 	United Kingdom
-EGSS 	STN 	London Stansted Airport 	London 	United Kingdom
-ESPA 	LLA 	Luleå Airport 	Luleå 	Sweden
-ELLX 	LUX 	Luxembourg-Findel International Airport 	Luxembourg 	Luxembourg
-LFLL 	LYS 	Lyon Saint-Exupéry Airport 	Lyon 	France
-LZIB 	BTS 	Bratislava Airport 	Bratislava 	Slovakia
-LEMG 	AGP 	Málaga Airport 	Málaga 	Spain
-ESMS 	MMX 	Malmö Airport 	Malmö 	Sweden
-LIMC 	MXP 	Malpensa International Airport 	Milan 	Italy
-LMML 	MLA 	Malta International Airport 	Valletta 	Malta
-EGCC 	MAN 	Manchester Airport 	Manchester 	United Kingdom
-LFML 	MRS 	Marseille Provence Airport 	Marseille 	France
-LIML 	LIN 	Milano Linate Airport 	Milan 	Italy
-UMMS 	MSQ 	Minsk National Airport 	Minsk 	Belarus
-EPMO 	WMI 	Modlin Airport 	Warsaw 	Poland
-EDDM 	MUC 	Munich Airport 	Munich 	Germany
-EDDG 	FMO 	Münster Osnabrück Airport 	Münster 	Germany
-LIRN 	NAP 	Naples International Airport 	Nápoli 	Italy
-EGNT 	NCL 	Newcastle Airport 	Newcastle 	United Kingdom
-LFMN 	NCE 	Nice-Côte d'Azur Airport 	Nice 	France
-EGSH 	NWI 	Norwich International Airport 	Norwich 	United Kingdom
-EDDN 	NUE 	Nuremberg Airport 	Nuremberg 	Germany
-UKOO 	ODS 	Odessa International Airport 	Odessa 	Ukraine
-ENGM 	OSL 	Oslo Gardermoen Airport 	Oslo 	Norway
-LEPA 	PMI 	Palma De Mallorca Airport 	Palma De Mallorca 	Spain
-LFPO 	ORY 	Paris-Orly Airport 	Paris 	France
-LIRP 	PSA 	Pisa International Airport 	Pisa 	Italy
-URRP 	ROV 	Platov International Airport 	Rostov-on-Don 	Russia
-LYPG 	TGD 	Podgorica Airport 	Podgorica 	Montenegro
-EPPO 	POZ 	Poznań-Ławica Airport 	Poznań 	Poland
-BKPR 	PRN 	Priština International Airport 	Prishtina 	Kosovo
-ULLI 	LED 	Pulkovo Airport 	St. Petersburg 	Russia
-LCRA 	AKT 	RAF Akrotiri 	Akrotiri 	United Kingdom
-EGVN 	BZZ 	RAF Brize Norton 	Brize Norton 	United Kingdom
-EGVA 	FFD 	RAF Fairford 	Fairford 	United Kingdom
-EGUL 	LKZ 	RAF Lakenheath 	Lakenheath 	United Kingdom
-EGUN 	MHZ 	RAF Mildenhall 	Mildenhall 	United Kingdom
-ETAR 	RMS 	Ramstein Air Base 	Ramstein 	Germany
-EVRA 	RIX 	Riga International Airport 	Riga 	Latvia
-EGCN 	DSA 	Robin Hood Doncaster Sheffield Airport 	Doncaster 	United Kingdom
-LEST 	SCQ 	Santiago de Compostela Airport 	Santiago de Compostela 	Spain
-LQSA 	SJJ 	Sarajevo International Airport 	Sarajevo 	Bosnia and Herzegovina
-EINN 	SNN 	Shannon Airport 	Shannon 	Ireland
-UUEE 	SVO 	Sheremetyevo International Airport 	Moscow 	Russia
-UKFF 	SIP 	Simferopol International Airport 	Simferopol 	Ukraine
-LWSK 	SKP 	Skopje Alexander the Great Airport 	Skopje 	Macedonia
-URSS 	AER 	Sochi International Airport 	Sochi 	Russia
-LBSF 	SOF 	Sofia Airport 	Sofia 	Bulgaria
-EGHI 	SOU 	Southampton Airport 	Southampton 	United Kingdom
-ENZV 	SVG 	Stavanger Airport Sola 	Stavanger 	Norway
-ESSA 	ARN 	Stockholm Arlanda Airport 	Stockholm 	Sweden
-EDDS 	STR 	Stuttgart Airport 	Stuttgart 	Germany
-GCXO 	TFN 	Tenerife North Airport 	Tenerife Island 	Spain
-GCTS 	TFS 	Tenerife South Airport 	Tenerife Island 	Spain
-LGTS 	SKG 	Thessaloniki Macedonia International Airport 	Thessaloniki 	Greece
-LATI 	TIA 	Tirana International Airport Mother Teresa 	Tirana 	Albania
-LFBO 	TLS 	Toulouse-Blagnac Airport 	Toulouse/Blagnac 	France
-LIPH 	TSF 	Treviso-Sant'Angelo Airport 	Treviso 	Italy
-ENTC 	TOS 	Tromsø Airport 	Tromsø 	Norway
-ENVA 	TRD 	Trondheim Airport Værnes 	Trondheim 	Norway
-LIMF 	TRN 	Turin Airport 	Torino 	Italy
-UWUU 	UFA 	Ufa International Airport 	Ufa 	Russia
-LKPR 	PRG 	Václav Havel Airport Prague 	Prague 	Czechia
-LBWN 	VAR 	Varna Airport 	Varna 	Bulgaria
-LIPZ 	VCE 	Venice Marco Polo Airport 	Venice 	Italy
-LIPX 	VRN 	Verona Villafranca Airport 	Verona 	Italy
-LOWW 	VIE 	Vienna International Airport 	Vienna 	Austria
-EYVI 	VNO 	Vilnius International Airport 	Vilnius 	Lithuania
-UUWW 	VKO 	Vnukovo International Airport 	Moscow 	Russia
-EPWA 	WAW 	Warsaw Chopin Airport 	Warsaw 	Poland
-UNKL 	KJA 	Yemelyanovo Airport 	Krasnoyarsk 	Russia
-LDZA 	ZAG 	Zagreb Airport 	Zagreb 	Croatia
-UUBW 	ZIA 	Zhukovsky International Airport 	Moscow 	Russia
-LSZH 	ZRH 	Zürich Airport 	Zurich 	Switzerland
-KSPI 	SPI 	Abraham Lincoln Capital Airport 	Springfield 	United States
-KABQ 	ABQ 	Albuquerque International Sunport 	Albuquerque 	United States
-KLTS 	LTS 	Altus Air Force Base 	Altus 	United States
-KAVL 	AVL 	Asheville Regional Airport 	Asheville 	United States
-KAGS 	AGS 	Augusta Regional At Bush Field 	Augusta 	United States
-KAUS 	AUS 	Austin Bergstrom International Airport 	Austin 	United States
-KGRB 	GRB 	Austin Straubel International Airport 	Green Bay 	United States
-KBWI 	BWI 	Baltimore/Washington International Thurgood Marshall Airport 	Baltimore 	United States
-KBGR 	BGR 	Bangor International Airport 	Bangor 	United States
-KBAD 	BAD 	Barksdale Air Force Base 	Bossier City 	United States
-KBAB 	BAB 	Beale Air Force Base 	Marysville 	United States
-KLIT 	LIT 	Bill & Hillary Clinton National Airport/Adams Field 	Little Rock 	United States
-KBIL 	BIL 	Billings Logan International Airport 	Billings 	United States
-KBHM 	BHM 	Birmingham-Shuttlesworth International Airport 	Birmingham 	United States
-KLEX 	LEX 	Blue Grass Airport 	Lexington 	United States
-KBFI 	BFI 	Boeing Field King County International Airport 	Seattle 	United States
-KBOI 	BOI 	Boise Air Terminal/Gowen Field 	Boise 	United States
-KBDL 	BDL 	Bradley International Airport 	Hartford 	United States
-KBUF 	BUF 	Buffalo Niagara International Airport 	Buffalo 	United States
-CYYC 	YYC 	Calgary International Airport 	Calgary 	Canada
-MMUN 	CUN 	Cancún International Airport 	Cancún 	Mexico
-KCVS 	CVS 	Cannon Air Force Base 	Clovis 	United States
-KBMI 	BMI 	Central Illinois Regional Airport at Bloomington-Normal 	Bloomington/Normal 	United States
-KCHS 	CHS 	Charleston Air Force Base-International Airport 	Charleston 	United States
-KCLT 	CLT 	Charlotte Douglas International Airport 	Charlotte 	United States
-KMDW 	MDW 	Chicago Midway International Airport 	Chicago 	United States
-KORD 	ORD 	Chicago O'Hare International Airport 	Chicago 	United States
-KRFD 	RFD 	Chicago Rockford International Airport 	Chicago/Rockford 	United States
-KCVG 	CVG 	Cincinnati/Northern Kentucky International Airport 	Cincinnati 	United States
-KCOS 	COS 	City of Colorado Springs Municipal Airport 	Colorado Springs 	United States
-KCLE 	CLE 	Cleveland Hopkins International Airport 	Cleveland 	United States
-KCAE 	CAE 	Columbia Metropolitan Airport 	Columbia 	United States
-KCBM 	CBM 	Columbus Air Force Base 	Columbus 	United States
-KCRP 	CRP 	Corpus Christi International Airport 	Corpus Christi 	United States
-KDFW 	DFW 	Dallas Fort Worth International Airport 	Dallas-Fort Worth 	United States
-KDAL 	DAL 	Dallas Love Field Airport 	Dallas 	United States
-KMSN 	MSN 	Dane County Regional Truax Field 	Madison 	United States
-PHNL 	HNL 	Daniel K. Inouye International Airport 	Honolulu 	United States
-MRLB 	LIR 	Daniel Oduber Quiros International Airport 	Liberia 	Costa Rica
-KDAB 	DAB 	Daytona Beach International Airport 	Daytona Beach 	United States
-KDEN 	DEN 	Denver International Airport 	Denver 	United States
-KDSM 	DSM 	Des Moines International Airport 	Des Moines 	United States
-KVPS 	VPS 	Destin-Ft Walton Beach Airport 	Valparaiso 	United States
-KDTW 	DTW 	Detroit Metropolitan Airport 	Detroit 	United States
-KDLF 	DLF 	DLF Airport 	Del Rio 	United States
-KMGE 	MGE 	Dobbins Air Reserve Base 	Marietta 	United States
-MMGL 	GDL 	Don Miguel Hidalgo Y Costilla International Airport 	Guadalajara 	Mexico
-KDOV 	DOV 	Dover Air Force Base 	Dover 	United States
-KDBQ 	DBQ 	Dubuque Regional Airport 	Dubuque 	United States
-KDLH 	DLH 	Duluth International Airport 	Duluth 	United States
-KDYS 	DYS 	Dyess Air Force Base 	Abilene 	United States
-CYEG 	YEG 	Edmonton International Airport 	Edmonton 	Canada
-KEDW 	EDW 	Edwards Air Force Base 	Edwards 	United States
-KOMA 	OMA 	Eppley Airfield 	Omaha 	United States
-KERI 	ERI 	Erie International Tom Ridge Field 	Erie 	United States
-PAFA 	FAI 	Fairbanks International Airport 	Fairbanks 	United States
-KSKA 	SKA 	Fairchild Air Force Base 	Spokane 	United States
-KFLL 	FLL 	Fort Lauderdale Hollywood International Airport 	Fort Lauderdale 	United States
-KFSM 	FSM 	Fort Smith Regional Airport 	Fort Smith 	United States
-KFWA 	FWA 	Fort Wayne International Airport 	Fort Wayne 	United States
-KAFW 	AFW 	Fort Worth Alliance Airport 	Fort Worth 	United States
-KFTW 	FTW 	Fort Worth Meacham International Airport 	Fort Worth 	United States
-MMTJ 	TIJ 	General Abelardo L. Rodríguez International Airport 	Tijuana 	Mexico
-KBOS 	BOS 	Logan International Airport 	Boston 	United States
-MMHO 	HMO 	General Ignacio P. Garcia International Airport 	Hermosillo 	Mexico
-MMAA 	ACA 	General Juan N Alvarez International Airport 	Acapulco 	Mexico
-MMMY 	MTY 	General Mariano Escobedo International Airport 	Monterrey 	Mexico
-KMKE 	MKE 	General Mitchell International Airport 	Milwaukee 	United States
-KPIA 	PIA 	General Wayne A. Downing Peoria International Airport 	Peoria 	United States
-KIAH 	IAH 	George Bush Intercontinental Airport 	Houston 	United States
-KROC 	ROC 	Greater Rochester International Airport 	Rochester 	United States
-KGSP 	GSP 	Greenville Spartanburg International Airport 	Greenville 	United States
-KGUS 	GUS 	Grissom Air Reserve Base 	Peru 	United States
-KGPT 	GPT 	Gulfport Biloxi International Airport 	Gulfport 	United States
-CYHZ 	YHZ 	Halifax / Stanfield International Airport 	Halifax 	Canada
-KATL 	ATL 	Hartsfield-Jackson Atlanta International Airport 	Atlanta 	United States
-KHMN 	HMN 	Holloman Air Force Base 	Alamogordo 	United States
-KHSV 	HSV 	Huntsville International Carl T Jones Field 	Huntsville 	United States
-KIND 	IND 	Indianapolis International Airport 	Indianapolis 	United States
-KJAN 	JAN 	Jackson-Medgar Wiley Evers International Airport 	Jackson 	United States
-KJAX 	JAX 	Jacksonville International Airport 	Jacksonville 	United States
-KDAY 	DAY 	James M Cox Dayton International Airport 	Dayton 	United States
-KJFK 	JFK 	John F. Kennedy International Airport 	New York 	United States
-KCMH 	CMH 	John Glenn Columbus International Airport 	Columbus 	United States
-KSNA 	SNA 	John Wayne Airport-Orange County Airport 	Santa Ana 	United States
-KADW 	ADW 	Andrews Air Force Base 	Camp Springs 	United States
-KJLN 	JLN 	Joplin Regional Airport 	Joplin 	United States
-MUHA 	HAV 	José Martí International Airport 	Havana 	Cuba
-MUVR 	VRA 	Juan Gualberto Gomez International Airport 	Varadero 	Cuba
-KMCI 	MCI 	Kansas City International Airport 	Kansas City 	United States
-MGGT 	GUA 	La Aurora Airport 	Guatemala City 	Guatemala
-KLGA 	LGA 	La Guardia Airport 	New York 	United States
-KLFT 	LFT 	Lafayette Regional Airport 	Lafayette 	United States
-KLFI 	LFI 	Langley Air Force Base 	Hampton 	United States
-MDSD 	SDQ 	Las Américas International Airport 	Santo Domingo 	Dominican Republic
-CYYZ 	YYZ 	Toronto Pearson International Airport 	Toronto 	Canada
-MMMX 	MEX 	Mexico City International Airport 	Mexico City 	Mexico
-MMPR 	PVR 	Licenciado Gustavo Díaz Ordaz International Airport 	Puerto Vallarta 	Mexico
-KLAX 	LAX 	Los Angeles International Airport 	Los Angeles 	United States
-MMSD 	SJD 	Los Cabos International Airport 	San José del Cabo 	Mexico
-KMSY 	MSY 	Louis Armstrong New Orleans International Airport 	New Orleans 	United States
-KSDF 	SDF 	Louisville International Airport 	Louisville 	United States
-KCHA 	CHA 	Lovell Field 	Chattanooga 	United States
-KLBB 	LBB 	Lubbock Preston Smith International Airport 	Lubbock 	United States
-TJSJ 	SJU 	Luis Munoz Marin International Airport 	San Juan 	Puerto Rico
-KLUF 	LUF 	Luke Air Force Base 	Glendale 	United States
-MYNN 	NAS 	Lynden Pindling International Airport 	Nassau 	Bahamas
-KMCF 	MCF 	Mac Dill Air Force Base 	Tampa 	United States
-KMHT 	MHT 	Manchester-Boston Regional Airport 	Manchester 	United States
-KMBS 	MBS 	MBS International Airport 	Saginaw 	United States
-KLAS 	LAS 	McCarran International Airport 	Las Vegas 	United States
-KTCM 	TCM 	McChord Air Force Base 	Tacoma 	United States
-KTYS 	TYS 	McGhee Tyson Airport 	Knoxville 	United States
-KMEM 	MEM 	Memphis International Airport 	Memphis 	United States
-KOAK 	OAK 	Metropolitan Oakland International Airport 	Oakland 	United States
-KMIA 	MIA 	Miami International Airport 	Miami 	United States
-KMSP 	MSP 	Minneapolis–Saint Paul International Airport 	Minneapolis 	United States
-KMOB 	MOB 	Mobile Regional Airport 	Mobile 	United States
-KMLU 	MLU 	Monroe Regional Airport 	Monroe 	United States
-MSLP 	SAL 	Monseñor Óscar Arnulfo Romero International Airport 	San Salvador (San Luis Talpa) 	El Salvador
-KMGM 	MGM 	Montgomery Regional (Dannelly Field) Airport 	Montgomery 	United States
-CYUL 	YUL 	Montreal / Pierre Elliott Trudeau International Airport 	Montréal 	Canada
-KMUO 	MUO 	Mountain Home Air Force Base 	Mountain Home 	United States
-KBNA 	BNA 	Nashville International Airport 	Nashville 	United States
-KEWR 	EWR 	Newark Liberty International Airport 	Newark 	United States
-KPHF 	PHF 	Newport News Williamsburg International Airport 	Newport News 	United States
-KORF 	ORF 	Norfolk International Airport 	Norfolk 	United States
-MKJP 	KIN 	Norman Manley International Airport 	Kingston 	Jamaica
-KSJC 	SJC 	Norman Y. Mineta San Jose International Airport 	San Jose 	United States
-KONT 	ONT 	Ontario International Airport 	Ontario 	United States
-KMCO 	MCO 	Orlando International Airport 	Orlando 	United States
-KSFB 	SFB 	Orlando Sanford International Airport 	Orlando 	United States
-CYOW 	YOW 	Ottawa Macdonald-Cartier International Airport 	Ottawa 	Canada
-MWCR 	GCM 	Owen Roberts International Airport 	Georgetown 	Cayman Islands
-KPBI 	PBI 	Palm Beach International Airport 	West Palm Beach 	United States
-KPHL 	PHL 	Philadelphia International Airport 	Philadelphia 	United States
-MZBZ 	BZE 	Philip S. W. Goldson International Airport 	Belize City 	Belize
-KPHX 	PHX 	Phoenix Sky Harbor International Airport 	Phoenix 	United States
-KGSO 	GSO 	Piedmont Triad International Airport 	Greensboro 	United States
-KPIT 	PIT 	Pittsburgh International Airport 	Pittsburgh 	United States
-TFFR 	PTP 	Pointe-à-Pitre Le Raizet 	Pointe-à-Pitre 	Guadeloupe
-KPDX 	PDX 	Portland International Airport 	Portland 	United States
-KPWM 	PWM 	Portland International Jetport Airport 	Portland 	United States
-TNCM 	SXM 	Princess Juliana International Airport 	Saint Martin 	Sint Maarten
-MDPC 	PUJ 	Punta Cana International Airport 	Punta Cana 	Dominican Republic
-KMLI 	MLI 	Quad City International Airport 	Moline 	United States
-KRDU 	RDU 	Raleigh Durham International Airport 	Raleigh/Durham 	United States
-KRND 	RND 	Randolph Air Force Base 	Universal City 	United States
-KHIB 	HIB 	Range Regional Airport 	Hibbing 	United States
-KRNO 	RNO 	Reno Tahoe International Airport 	Reno 	United States
-KRIC 	RIC 	Richmond International Airport 	Richmond 	United States
-KAMA 	AMA 	Rick Husband Amarillo International Airport 	Amarillo 	United States
-KLCK 	LCK 	Rickenbacker International Airport 	Columbus 	United States
-KROA 	ROA 	Roanoke–Blacksburg Regional Airport 	Roanoke 	United States
-KWRB 	WRB 	Robins Air Force Base 	Warner Robins 	United States
-KRST 	RST 	Rochester International Airport 	Rochester 	United States
-KDCA 	DCA 	Ronald Reagan Washington National Airport 	Washington 	United States
-KSMF 	SMF 	Sacramento International Airport 	Sacramento 	United States
-KSLC 	SLC 	Salt Lake City International Airport 	Salt Lake City 	United States
-KSAT 	SAT 	San Antonio International Airport 	San Antonio 	United States
-KSAN 	SAN 	San Diego International Airport 	San Diego 	United States
-KSFO 	SFO 	San Francisco International Airport 	San Francisco 	United States
-KSRQ 	SRQ 	Sarasota Bradenton International Airport 	Sarasota/Bradenton 	United States
-KSAV 	SAV 	Savannah Hilton Head International Airport 	Savannah 	United States
-KBLV 	BLV 	Scott AFB/Midamerica Airport 	Belleville 	United States
-KSEA 	SEA 	Seattle-Tacoma International Airport 	Seattle 	United States
-KGSB 	GSB 	Seymour Johnson Air Force Base 	Goldsboro 	United States
-KSSC 	SSC 	Shaw Air Force Base 	Sumter 	United States
-KSPS 	SPS 	Sheppard Air Force Base-Wichita Falls Municipal Airport 	Wichita Falls 	United States
-KSUX 	SUX 	Sioux Gateway Col. Bud Day Field 	Sioux City 	United States
-KSBN 	SBN 	South Bend Regional Airport 	South Bend 	United States
-KRSW 	RSW 	Southwest Florida International Airport 	Fort Myers 	United States
-KSUS 	SUS 	Spirit of St Louis Airport 	St Louis 	United States
-KGEG 	GEG 	Spokane International Airport 	Spokane 	United States
-KSGF 	SGF 	Springfield Branson National Airport 	Springfield 	United States
-KSTL 	STL 	St Louis Lambert International Airport 	St Louis 	United States
-CYYT 	YYT 	St. John's International Airport 	St. John's 	Canada
-KSYR 	SYR 	Syracuse Hancock International Airport 	Syracuse 	United States
-KTLH 	TLH 	Tallahassee Regional Airport 	Tallahassee 	United States
-KTPA 	TPA 	Tampa International Airport 	Tampa 	United States
-PANC 	ANC 	Ted Stevens Anchorage International Airport 	Anchorage 	United States
-KCID 	CID 	The Eastern Iowa Airport 	Cedar Rapids 	United States
-KPVD 	PVD 	Theodore Francis Green State Airport 	Providence 	United States
-KTIK 	TIK 	Tinker Air Force Base 	Oklahoma City 	United States
-MPTO 	PTY 	Tocumen International Airport 	Tocumen 	Panama
-KTOL 	TOL 	Toledo Express Airport 	Toledo 	United States
-KSUU 	SUU 	Travis Air Force Base 	Fairfield 	United States
-KTRI 	TRI 	Tri-Cities Regional TN/VA Airport 	Bristol/Johnson/Kingsport 	United States
-KHTS 	HTS 	Tri-State/Milton J. Ferguson Field 	Huntington 	United States
-KTUS 	TUS 	Tucson International Airport 	Tucson 	United States
-KTUL 	TUL 	Tulsa International Airport 	Tulsa 	United States
-KPAM 	PAM 	Tyndall Air Force Base 	Panama City 	United States
-KEND 	END 	Vance Air Force Base 	Enid 	United States
-CYVR 	YVR 	Vancouver International Airport 	Vancouver 	Canada
-KVBG 	VBG 	Vandenberg Air Force Base 	Lompoc 	United States
-CYYJ 	YYJ 	Victoria International Airport 	Victoria 	Canada
-KIAD 	IAD 	Washington Dulles International Airport 	Washington 	United States
-KSZL 	SZL 	Whiteman Air Force Base 	Knob Noster 	United States
-KICT 	ICT 	Wichita Eisenhower National Airport 	Wichita 	United States
-KOKC 	OKC 	Will Rogers World Airport 	Oklahoma City 	United States
-KHOU 	HOU 	William P Hobby Airport 	Houston 	United States
-CYWG 	YWG 	Winnipeg / James Armstrong Richardson International Airport 	Winnipeg 	Canada
-KFFO 	FFO 	Wright-Patterson Air Force Base 	Dayton 	United States
-KCRW 	CRW 	Yeager Airport 	Charleston 	United States
-YPAD 	ADL 	Adelaide International Airport 	Adelaide 	Australia
-PGUM 	GUM 	Antonio B. Won Pat International Airport 	Hagåtña, Guam International Airport 	Guam
-NZAA 	AKL 	Auckland International Airport 	Auckland 	New Zealand
-YBBN 	BNE 	Brisbane International Airport 	Brisbane 	Australia
-YSCB 	CBR 	Canberra International Airport 	Canberra 	Australia
-NZCH 	CHC 	Christchurch International Airport 	Christchurch 	New Zealand
-NTAA 	PPT 	Faa'a International Airport 	Papeete 	French Polynesia
-YMML 	MEL 	Melbourne International Airport 	Melbourne 	Australia
-YPPH 	PER 	Perth International Airport 	Perth 	Australia
-AYPY 	POM 	Port Moresby Jacksons International Airport 	Port Moresby 	Papua New Guinea
-NCRG 	RAR 	Rarotonga International Airport 	Avarua 	Cook Islands
-YSSY 	SYD 	Sydney Airport 	Sydney 	Australia
-NZWN 	WLG 	Wellington International Airport 	Wellington 	New Zealand
-SBCT 	CWB 	Afonso Pena Airport 	Curitiba 	Brazil
-SPZO 	CUZ 	Alejandro Velasco Astete International Airport 	Cusco 	Peru
-SUMU 	MVD 	Carrasco International /General C L Berisso Airport 	Montevideo 	Uruguay
-SCEL 	SCL 	Comodoro Arturo Merino Benítez International Airport 	Santiago 	Chile
-SBSP 	CGH 	São Paulo–Congonhas Airport 	São Paulo 	Brazil
-SELT 	LTX 	Cotopaxi International Airport 	Latacunga 	Ecuador
-SBSV 	SSA 	Deputado Luiz Eduardo Magalhães International Airport 	Salvador 	Brazil
-SKBO 	BOG 	El Dorado International Airport 	Bogota 	Colombia
-SVBC 	BLA 	General José Antonio Anzoategui International Airport 	Barcelona 	Venezuela
-SBSG 	NAT 	Governador Aluízio Alves International Airport 	Natal 	Brazil
-SBFL 	FLN 	Hercílio Luz International Airport 	Florianópolis 	Brazil
-SPJC 	LIM 	Jorge Chávez International Airport 	Lima 	Peru
-SEQM 	UIO 	Mariscal Sucre International Airport 	Quito 	Ecuador
-SAEZ 	EZE 	Ministro Pistarini International Airport 	Buenos Aires 	Argentina
-SBBR 	BSB 	Brasília International Airport 	Brasília 	Brazil
-SBGL 	GIG 	Galeão International Airport 	Rio De Janeiro 	Brazil
-SVMI 	CCS 	Simón Bolívar International Airport 	Caracas 	Venezuela
-SBCF 	CNF 	Tancredo Neves International Airport 	Belo Horizonte 	Brazil
-SBBE 	BEL 	Val de Cans/Júlio Cezar Ribeiro International Airport 	Belém 	Brazil
-SLVR 	VVI 	Viru Viru International Airport 	Santa Cruz 	Bolivia
-
+HEBA	HBE	Borg El Arab Intl Airport	Alexandria	Egypt
+LFRO	LAI	Lannion - Cote de Granit Airport	Lannion	France
+LFRG	DOL	Deauville - Saint-Gatien Airport	Deauville	France
+TXKF	BDA	Hamilton Bermuda Intl	Hamilton	Bermudas
+SBGR	GRU	Guarulhos Intl Airport	Sao Paulo	Brazil
+LFRS	NTE	Nantes Atlantique Airport	Nantes	France
+WMSA	SZB	Sultan Abdul Aziz Shah-Subang Airport	Kuala Lumpur	Malaysia
+WMKJ	JHB	Sultan Ismail Airport	Johor Bahru	Malaysia
+LFRB	BES	Brest Bretagne Airport	Brest Guipavas	France
+WMKP	PEN	Penang Intl	Penang	Malaysia
+VTSG	KBV	Krabi Airport	Krabi	Thailand
+KORH	ORH	Worcester Regional Airport	Worcester	United States
+KACK	ACK	Nantucket Memorial Airport	Nantucket	United States
+LEBB	BIO	Bilbao Airport	Bilbao	Spain
+GCRR	ACE	Arrecife-Lanzarote Airport	Arrecife	Spain
+LEJR	XRY	Jerez Airport	Jerez de la Frontera	Spain
+LICA	SUF	Lamezia Terme Intl Airport	Lamezia Terme	Italia
+MKJS	MBJ	Montego Bay-Sangster Intl	Montego Bay	Jamaica
+GMMI	ESU	Essaouira-Mogador	Essaouira	Morocco
+DAON	TLM	Tlemcen-Zenata Messali El Hadj Airport	Tiemcen	Algeria
+LGKL	KLX	Kalamata Intl Airport	Kalamata	Greece
+LPPR	OPO	Porto-Francisco Sa Carneiro Airport	Porto	Portugal
+EDDB	BER	Berlin-Brandenburg (Willy Brandt)	Berlin	Germany
+DIAP	ABJ	Abidjan-Felix Houphouet-Boigny	Abidjan	Ivory Coast
+LGKF	EFL	Kefalonia Island Intl Airport	Kefalonia	Greece
+LFSL	BVE	Brive-Souillac Airport	Brive	France
+LFPB	LBG	Paris-Le Bourget	Le Bourget	France
+GMTT	TNG	Tanger-Ibn Batouta Airport	Tanger	Morocco
+LECO	LCG	A Coruna Airport	A Coruna	Spain
+LGSK	JSI	Skiathos Island National Airport	Skiathos	Greece
+GMMW	NDR	Nador-Al Aroui	Nador	Morocco
+DABB	AAE	Annaba-El Mellah Airport	Annaba	Algeria
+DTTX	SFA	Sfax-Thyna	Sfax	Tunisia
+LPMA	FNC	Madeira Airport	Funchal	Portugal
+LGKO	KGS	Kos Island Intl Airport	Kos	Greece
+LIBR	BDS	Brindisi-Casale Airport	Brindisi	Italia
+LEAS	OVD	Asturias Airport	Asturias	Spain
+DABC	CZL	Constantine-Mohamed Boudiaf Airport	Constantine	Algeria
+LFRQ	UIP	Quimper-Cornouaille Airport	Quimper	France
+FMEE	RUN	Saint-Denis Gillot	Saint-Denis	Reunion
+GMME	RBA	Rabat-Sale	Rabat	Morocco
+LGSA	CHQ	Chania Intl Airport	Chania	Greece
+LDZD	ZAD	Zadar Airport	Zadar	Croatia
+DTMB	MIR	Monastir-Habib Bourguiba Airport	Monastir	Tunisia
+GMMX	RAK	Marrakech-Menara	Marrakech	Morocco
+SOCA	CAY	Cayenne-Rochambeau	Cayenne	Guyane Francaise
+DAAE	BJA	Bejaia-Soummam Abane Ramdane Airport	Bejaia	Algeria
+DAOO	ORN	Oran-Es Senia Airport	Oran	Algeria
+TFFF	FDF	Fort de France-Le Lamentin	Fort de France	Martinique-Antilles Francaises
+LDSP	SPU	Split-Kastela Airport	Split	Croatia
+GMFO	OUD	Oujda-Angads	Oujda	Morocco
+LFBP	PUF	Pau-Pyrenees Airport	Pau	France
+GCFV	FUE	Fuerteventura Airport	Fuerteventura	Spain
+LGMK	JMK	Mykonos Island National Airport	Mykonos	Greece
+GMAD	AGA	Agadir-Al Massira	Agadir	Morocco
+GMFF	FEZ	Fes-Saiss	Fes	Morocco
+LFMP	PGF	Perpignan-Rivesaltes Airport	Perpignan	France
+DTTJ	DJE	Djerba-Zarzis	Djerba	Tunisia
+LGZA	ZTH	Zakynthos Intl Airport	Zakynthos	Greece
+LFKF	FSC	Figari-Sud Corse Airport	Figari	France
+LEZL	SVQ	Sevilla Airport	Sevilla	Spain
+LYTV	TIV	Tivat	Airport	Tivat	Montenegro
+LEVC	VLC	Valencia Airport	Valencia	Spain
+LIRQ	FLR	A. Vespucci Florence Airport	Florence	Italia
+LFLW	AUR	Aurillac Airport	Aurillac	France
+LGPZ	PVK	Aktion National Airport	Preveza	Greece
+LFCK	DCM	Castres-Mazamet Airport	Castres-Mazamet	France
+LEIB	IBZ	Ibiza Airport	Ibiza	Spain
+LFBT	LDE	Tarbes-Lourdes-Pyrenees Airport	Tarbes	France
+LFKC	CLY	Calvi-Sainte-Catherine Airport	Calvi	France
+LFCR	RDZ	Rodez-Marcillac Airport	Rodez	France
+LEMH	MAH	Menorca Airport	Menorca	Spain
+LGKR	CFU	Corfu Intl Airport	Corfu	Greece
+LFBL	LIG	Limoges Airport	Limoges	France
+LFKJ	AJA	Campo Dell Oro Airport	Ajaccio	France
+LGRP	RHO	Rhodes Intl Airport	Rhodes	Greece
+LFHP	LPY	Le Puy-en-Velay – Loudes Airport	Le Puy-en-Velay	France
+LGSR	JTR	Santorini-Thira National Airport	Santorini	Greece
+GMMH	VIL	Dakhla Airport	Dakhla	Morocco
+LFMT	MPL	Montpellier-Mediterranee Airport	Montpellier	France
+LFBZ	BIQ	Biarritz-Anglet-Bayonne Airport	Biarritz	France
+LDDU	DBV	Dubrovnik Airport	Dubrovnik	Croatia
+LIEO	OLB	Olbia-Costa Smeralda Airport	Olbia	Italia
+LFTH	TLN	Toulon-Hyeres Airport	Toulon	France
+LFLX	CHR	Chateauroux-Deols-Marcel Dassault Airport	Chateauroux	France
+LFTW	FNI	Nimes–Ales–Camargue–Cevennes Airport	Nimes	France
+LFKB	BIA	Bastia-Poretta Airport	Bastia	France
+HTZA	ZNZ	Abeid Amani Karume International Airport	Zanzibar	Tanzania
+HAAB	ADD	Addis Ababa Bole International Airport	Addis Ababa	Ethiopia
+DNAI	QUO	Akwa Ibom International Airport	Uyo	Nigeria
+GVAC	SID	Amilcar Cabral International Airport	Espargos	Cape Verde
+GOBD	DSS	Diass-Thies Blaise Diagne International Airport	Dakar	Senegal
+HECA	CAI	Cairo International Airport	Cairo	Egypt
+FACT	CPT	Cape Town International Airport	Cape Town	South Africa
+DRRN	NIM	Diori Hamani International Airport	Niamey	Niger
+DTNH	NBE	Enfidha - Hammamet International Airport	Enfidha	Tunisia
+HUEN	EBB	Entebbe International Airport	Kampala	Uganda
+FAGG	GRJ	George Airport	George	South Africa
+FYWH	WDH	Hosea Kutako International Airport	Windhoek	Namibia
+DAAG	ALG	Algiers Houari Boumediene Airport	Algiers	Algeria
+HEGN	HRG	Hurghada International Airport	Hurghada	Egypt
+FMMI	TNR	Ivato Airport	Antananarivo	Madagascar
+HKJK	NBO	Jomo Kenyatta International Airport	Nairobi	Kenya
+HSSJ	JUB	Juba International Airport	Juba	South Sudan
+HTDA	DAR	Julius Nyerere International Airport	Dar es Salaam	Tanzania
+FLKK	LUN	Kenneth Kaunda International Airport Lusaka	Lusaka	Zambia
+HSSS	KRT	Khartoum International Airport	Khartoum	Sudan
+HRYR	KGL	Kigali International Airport	Kigali	Rwanda
+FALE	DUR	King Shaka International Airport	Durban	South Africa
+DGAA	ACC	Kotoka International Airport	Accra	Ghana
+GOOY	DKR	Leopold Sedar Senghor International Airport	Dakar	Senegal
+GFLL	FNA	Lungi International Airport	Freetown	Sierra Leone
+HELX	LXR	Luxor International Airport	Luxor	Egypt
+DNKN	KAN	Mallam Aminu International Airport	Kano	Nigeria
+FQMA	MPM	Maputo Airport	Maputo	Mozambique
+GABS	BKO	Modibo Keita International Airport	Bamako	Mali
+GMMN	CMN	Mohammed V International Airport	Casablanca	Morocco
+HKMO	MBA	Mombasa Moi International Airport	Mombasa	Kenya
+DNMM	LOS	Murtala Muhammed International Airport	Lagos	Nigeria
+FTTJ	NDJ	N'Djamena International Airport	N'Djamena	Chad
+FZAA	FIH	Ndjili International Airport	Kinshasa	Congo (Kinshasa)
+DNAA	ABV	Nnamdi Azikiwe International Airport	Abuja	Nigeria
+GQNO	NKC	Nouakchott–Oumtounsy International Airport	Nouakchott	Mauritania
+FAOR	JNB	OR Tambo International Airport	Johannesburg	South Africa
+DFFD	OUA	Ouagadougou Airport	Ouagadougou	Burkina Faso
+FNLU	LAD	Quatro de Fevereiro Airport	Luanda	Angola
+FVRG	HRE	Robert Gabriel Mugabe International Airport	Harare	Zimbabwe
+GLRB	ROB	Roberts International Airport	Monrovia	Liberia
+FSIA	SEZ	Seychelles International Airport	Mahe Island	Seychelles
+FIMP	MRU	Sir Seewoosagur Ramgoolam International Airport	Port Louis	Mauritius
+FBSK	GBE	Sir Seretse Khama International Airport	Gaborone	Botswana
+HLLT	TIP	Tripoli International Airport	Tripoli	Libya
+DTTA	TUN	Tunis Carthage International Airport	Tunis	Tunisia
+OMAA	AUH	Abu Dhabi International Airport	Abu Dhabi	United Arab Emirates
+LTAF	ADA	Adana Airport	Adana	Turkey
+LTBJ	ADB	Adnan Menderes International Airport	Izmir	Turkey
+OMDW	DWC	Al Maktoum International Airport	Jebel Ali	United Arab Emirates
+OSAP	ALP	Aleppo International Airport	Aleppo	Syria
+UAAA	ALA	Almaty Airport	Almaty	Kazakhstan
+LTAI	AYT	Antalya International Airport	Antalya	Turkey
+UTAA	ASB	Ashgabat International Airport	Ashgabat	Turkmenistan
+UACC	TSE	Astana International Airport	Astana	Kazakhstan
+LTBA	IST	Istanbul Ataturk Airport	Istanbul	Turkey
+ORBI	BGW	Baghdad International Airport	Baghdad	Iraq
+OBBI	BAH	Bahrain International Airport	Manama	Bahrain
+ZBHH	HET	Baita International Airport	Hohhot	China
+VCBI	CMB	Bandaranaike International Colombo Airport	Colombo	Sri Lanka
+ORMM	BSR	Basrah International Airport	Basrah	Iraq
+OSLK	LTK	Bassel Al-Assad International Airport	Latakia	Syria
+ZBAA	PEK	Beijing Capital International Airport	Beijing	China
+ZBAD	PKX	Beijing Daxing International Airport	Beijing	China
+ZBNY	NAY	Beijing Nanyuan Airport	Beijing	China
+OLBA	BEY	Beirut Rafic Hariri International Airport	Beirut	Lebanon
+LLBG	TLV	Ben Gurion International Airport	Tel Aviv	Israel
+WBSB	BWN	Brunei International Airport	Bandar Seri Begawan	Brunei
+VOCL	CCJ	Calicut International Airport	Calicut	India
+ZGHA	CSX	Changsha Huanghua International Airport	Changsha	China
+ZUUU	CTU	Chengdu Shuangliu International Airport	Chengdu	China
+VOMM	MAA	Chennai International Airport	Chennai	India
+VABB	BOM	Mumbai International Airport	Mumbai	India
+VTCC	CNX	Chiang Mai International Airport	Chiang Mai	Thailand
+ZMUB	ULN	Chinggis Khaan International Airport	Ulan Bator	Mongolia
+ZMCK	ULN	Chinggis Khaan International Airport	Mongolia	Mongolia
+ZUCK	CKG	Chongqing Jiangbei International Airport	Chongqing	China
+RJGG	NGO	Chubu Centrair International Airport	Tokoname	Japan
+VOCI	COK	Cochin International Airport	Kochi	India
+VVDN	DAD	Da Nang International Airport	Da Nang	Vietnam
+VOGO	GOI	Dabolim Airport	Vasco da Gama	India
+LTBS	DLM	Dalaman International Airport	Dalaman	Turkey
+OSDI	DAM	Damascus International Airport	Damascus	Syria
+RPLC	CRK	Diosdado Macapagal International Airport	Angeles/Mabalacat	Philippines
+WASS	SOQ	Dominique Edward Osok Airport	Sorong-Papua Island	Indonesia
+VTBD	DMK	Don Mueang International Airport	Bangkok	Thailand
+OMDB	DXB	Dubai International Airport	Dubai	United Arab Emirates
+OODQ	DQM	Duqm International Airport	Duqm	Oman
+LTCE	ERZ	Erzurum International Airport	Erzurum	Turkey
+LTAC	ESB	Esenboga International Airport	Ankara	Turkey
+RPMD	DVO	Francisco Bangoy International Airport	Davao City	Philippines
+RJFF	FUK	Fukuoka Airport	Fukuoka	Japan
+ZSFZ	FOC	Fuzhou Changle International Airport	Fuzhou	China
+LTAJ	GZT	Gaziantep International Airport	Gaziantep	Turkey
+RKPK	PUS	Gimhae International Airport	Busan	South Korea
+RKSS	GMP	Gimpo International Airport	Seoul	South Korea
+ZGGG	CAN	Guangzhou Baiyun International Airport	Guangzhou	China
+ZGKL	KWL	Guilin Liangjiang International Airport	Guilin City	China
+ZJHK	HAK	Haikou Meilan International Airport	Haikou	China
+OTHH	DOH	Hamad International Airport	Doha	Qatar
+ZSHC	HGH	Hangzhou Xiaoshan International Airport	Hangzhou	China
+WAAA	UPG	Hasanuddin International Airport	Ujung Pandang-Celebes Island	Indonesia
+VGHS	DAC	Hazrat Shahjalal International Airport	Dhaka	Bangladesh
+UBBB	GYD	Heydar Aliyev International Airport	Baku	Azerbaijan
+VHHH	HKG	Hong Kong International Airport	Hong Kong	Hong Kong
+OIIE	IKA	Imam Khomeini International Airport	Tehran	Iran
+RKSI	ICN	Seoul Incheon International Airport	Seoul	South Korea
+VIDP	DEL	Indira Gandhi International Airport	New Delhi	India
+LTFM	IST	İstanbul New Airport	Istanbul	Turkey
+RKPC	CJU	Jeju International Airport	Jeju City	South Korea
+WARR	SUB	Juanda International Airport	Surabaya	Indonesia
+RODN	DNA	Kadena Air Base	Nakagami	Japan
+RJFK	KOJ	Kagoshima Airport	Kagoshima	Japan
+RJBB	KIX	Kansai International Airport	Osaka	Japan
+RCKH	KHH	Kaohsiung International Airport	Kaohsiung City	Taiwan
+VOBL	BLR	Kempegowda International Airport	Bangalore	India
+UHHH	KHV	Khabarovsk-Novy Airport	Khabarovsk	Russia
+OEDR	DHA	King Abdulaziz Air Base	Dhahran	Saudi Arabia
+OEJN	JED	King Abdulaziz International Airport	Jeddah	Saudi Arabia
+OEDF	DMM	King Fahd International Airport	Ad Dammam	Saudi Arabia
+OERK	RUH	King Khaled International Airport	Riyadh	Saudi Arabia
+RCBS	KNH	Kinmen Airport	Shang-I	Taiwan
+USSS	SVX	Koltsovo Airport	Yekaterinburg	Russia
+WMKK	KUL	Kuala Lumpur International Airport	Kuala Lumpur	Malaysia
+WIMM	KNO	Kualanamu International Airport		Indonesia
+ZPPP	KMG	Kunming Changshui International Airport	Kunming	China
+RKJK	KUV	Kunsan Air Base	Kunsan	South Korea
+OKBK	KWI	Kuwait International Airport	Kuwait City	Kuwait
+RPMY	CGY	Laguindingan Airport	Cagayan de Oro City	Philippines
+LCLK	LCA	Larnaca International Airport	Larnarca	Cyprus
+ZUGY	KWE	Longdongbao Airport	Guiyang	China
+VMMC	MFM	Macau International Airport	Macau	Macau
+RPVM	CEB	Mactan Cebu International Airport	Lapu-Lapu City	Philippines
+VRMM	MLE	Male International Airport	Male	Maldives
+UCFM	FRU	Manas International Airport	Bishkek	Kyrgyzstan
+VYMD	MDL	Mandalay International Airport	Mandalay	Burma
+OIMM	MHD	Mashhad International Airport	Mashhad	Iran
+VCRI	HRI	Mattala Rajapaksa International Airport	Mattalla	Sri Lanka
+OIII	THR	Mehrabad International Airport	Tehran	Iran
+LTFE	BJV	Milas Bodrum Airport	Bodrum	Turkey
+RJNS	FSZ	Mt. Fuji Shizuoka Airport	Makinohara / Shimada	Japan
+RKJB	MWX	Muan International Airport	Piseo-ri (Muan)	South Korea
+OOMS	MCT	Muscat International Airport	Muscat	Oman
+ROAH	OKA	Naha Airport	Naha	Japan
+ZSNJ	NKG	Nanjing Lukou Airport	Nanjing	China
+ZGNN	NNG	Nanning Wuxu Airport	Nanning	China
+RJAA	NRT	Narita International Airport	Tokyo	Japan
+VECC	CCU	Netaji Subhash Chandra Bose International Airport	Kolkata	India
+RJCC	CTS	New Chitose Airport	Chitose / Tomakomai	Japan
+OPIS	ISB	New Islamabad International Airport	Islamabad	Pakistan
+WADD	DPS	Ngurah Rai (Bali) International Airport	Denpasar-Bali Island	Indonesia
+ZSNB	NGB	Ningbo Lishe International Airport	Ningbo	China
+RPLL	MNL	Ninoy Aquino International Airport	Manila	Philippines
+VVNB	HAN	Noi Bai International Airport	Hanoi	Vietnam
+RJOO	ITM	Osaka International Airport	Osaka	Japan
+RKSO	OSN	Osan Air Base	Pyeongtaek	South Korea
+LLOV	VDA	Ovda International Airport	Eilat	Israel
+LCPH	PFO	Paphos International Airport	Paphos	Cyprus
+VDPP	PNH	Phnom Penh International Airport	Phnom Penh	Cambodia
+VTSP	HKT	Phuket International Airport	Phuket	Thailand
+OEMA	MED	Prince Mohammad Bin Abdulaziz Airport	Medina	Saudi Arabia
+OJAI	AMM	Queen Alia International Airport	Amman	Jordan
+VOHS	HYD	Rajiv Gandhi International Airport	Hyderabad	India
+OORQ	MNH	Rustaq Airport	Al Masna'ah	Oman
+LTFJ	SAW	Sabiha Gokcen International Airport	Istanbul	Turkey
+ZJSY	SYX	Sanya Phoenix International Airport	Sanya	China
+UAKK	KGF	Sary-Arka Airport	Karaganda	Kazakhstan
+WAJJ	DJJ	Sentani International Airport	Jayapura-Papua Island	Indonesia
+ZSSS	SHA	Shanghai Hongqiao International Airport	Shanghai	China
+ZSPD	PVG	Shanghai Pudong International Airport	Shanghai	China
+OMSJ	SHJ	Sharjah International Airport	Sharjah	United Arab Emirates
+ZGSZ	SZX	Shenzhen Bao'an International Airport	Shenzhen	China
+OISS	SYZ	Shiraz Shahid Dastghaib International Airport	Shiraz	Iran
+OPST	SKT	Sialkot Airport	Sialkot	Pakistan
+VDSR	REP	Siem Reap International Airport	Siem Reap	Cambodia
+WSSS	SIN	Singapore Changi Airport	Singapore	Singapore
+WIII	CGK	Soekarno-Hatta International Airport	Jakarta	Indonesia
+VIAR	ATQ	Sri Guru Ram Dass Jee International Airport	Amritsar	India
+LTFC	ISE	Süleyman Demirel International Airport	Isparta	Turkey
+VTBS	BKK	Suvarnabhumi Airport	Bangkok	Thailand
+OITT	TBZ	Tabriz International Airport	Tabriz	Iran
+ZYHB	HRB	Taiping Airport	Harbin	China
+RCTP	TPE	Taiwan Taoyuan International Airport	Taipei	Taiwan
+ZBYN	TYN	Taiyuan Wusu Airport	Taiyuan	China
+VVTS	SGN	Tan Son Nhat International Airport	Ho Chi Minh City	Vietnam
+ZYTX	SHE	Taoxian Airport	Shenyang	China
+UTTT	TAS	Tashkent International Airport	Tashkent	Uzbekistan
+UGTB	TBS	Tbilisi International Airport	Tbilisi	Georgia
+ZBTJ	TSN	Tianjin Binhai International Airport	Tianjin	China
+RJTT	HND	Tokyo Haneda Airport	Tokyo	Japan
+UNNT	OVB	Tolmachevo Airport	Novosibirsk	Russia
+LTCG	TZX	Trabzon International Airport	Trabzon	Turkey
+VNKT	KTM	Tribhuvan International Airport	Kathmandu	Nepal
+VOTV	TRV	Trivandrum International Airport	Thiruvananthapuram	India
+ZWWW	URC	Urumqi Diwopu International Airport	Urumqi	China
+ZSWZ	WNZ	Wenzhou Longwan International Airport	Wenzhou	China
+ZHHH	WUH	Wuhan Tianhe International Airport	Wuhan	China
+ZLXY	XIY	Xi'an Xianyang International Airport	Xi'an	China
+ZSAM	XMN	Xiamen Gaoqi International Airport	Xiamen	China
+VYYY	RGN	Yangon International Airport	Yangon	Burma
+ZSJN	TNA	Yaoqiang Airport	Jinan	China
+RJTY	OKO	Yokota Air Base	Fussa	Japan
+ZHCC	CGO	Zhengzhou Xinzheng International Airport	Zhengzhou	China
+ZYTL	DLC	Zhoushuizi Airport	Dalian	China
+UDYZ	EVN	Zvartnots International Airport	Yerevan	Armenia
+EKYT	AAL	Aalborg Airport	Aalborg	Denmark
+EGPD	ABZ	Aberdeen Dyce Airport	Aberdeen	United Kingdom
+LEMD	MAD	Adolfo Suarez Madrid–Barajas Airport	Madrid	Spain
+LEAL	ALC	Alicante International Airport	Alicante	Spain
+EHAM	AMS	Amsterdam Airport Schiphol	Amsterdam	The Netherlands
+LFOA		Avord (BA 702) Air Base	Avord	France
+LEBL	BCN	Barcelona–El Prat Airport	Barcelona	Spain
+LIBD	BRI	Bari Karol Wojtyła Airport	Bari	Italy
+EGAA	BFS	Belfast International Airport	Belfast	United Kingdom
+LYBE	BEG	Belgrade Nikola Tesla Airport	Belgrade	Serbia
+ENBR	BGO	Bergen Airport Flesland	Bergen	Norway
+EDDB	SXF	Berlin-Schonefeld Airport	Berlin	Germany
+EDDT	TXL	Berlin-Tegel Airport	Berlin	Germany
+EKBI	BLL	Billund Airport	Billund	Denmark
+EGBB	BHX	Birmingham International Airport	Birmingham	United Kingdom
+ENBO	BOO	Bodo Airport	Bodo	Norway
+LIPE	BLQ	Bologna Guglielmo Marconi Airport	Bologna	Italy
+LFBD	BOD	Bordeaux-Merignac Airport	Bordeaux	France
+UWKG		Borisoglebskoye Airport	Kazan	Russia
+UKBB	KBP	Boryspil International Airport	Kiev	Ukraine
+EGHH	BOH	Bournemouth Airport	Bournemouth	United Kingdom
+EDDW	BRE	Bremen Airport	Bremen	Germany
+EGGD	BRS	Bristol Airport	Bristol	United Kingdom
+EBBR	BRU	Brussels Airport	Brussels	Belgium
+EBCI	CRL	Brussels South Charleroi Airport	Brussels	Belgium
+LHBP	BUD	Budapest Liszt Ferenc International Airport	Budapest	Hungary
+LBBG	BOJ	Burgas Airport	Burgas	Bulgaria
+LIEE	CAG	Cagliari Elmas Airport	Cagliari	Italy
+EGFF	CWL	Cardiff International Airport	Cardiff	United Kingdom
+LICC	CTA	Catania-Fontanarossa Airport	Catania	Italy
+LFPG	CDG	Paris-Charles de Gaulle Airport	Paris	France
+LIRA	CIA	Rome–Ciampino International Airport "G. B. Pastine"	Rome	Italy
+EDDK	CGN	Cologne Bonn Airport	Cologne	Germany
+EKCH	CPH	Copenhagen Kastrup Airport	Copenhagen	Denmark
+EPWR	WRO	Copernicus Airport Wroclaw	Wroclaw	Poland
+EICK	ORK	Cork Airport	Cork	Ireland
+UUDD	DME	Domodedovo International Airport	Moscow	Russia
+EDLW	DTM	Dortmund Airport	Dortmund	Germany
+EDDC	DRS	Dresden Airport	Dresden	Germany
+EIDW	DUB	Dublin Airport	Dublin	Ireland
+EDDL	DUS	Dusseldorf Airport	Dusseldorf	Germany
+EGNX	EMA	East Midlands Airport	Nottingham	United Kingdom
+EGPH	EDI	Edinburgh Airport	Edinburgh	United Kingdom
+EHEH	EIN	Eindhoven Airport	Eindhoven	The Netherlands
+LGAV	ATH	Athens International Airport "Eleftherios Venizelos"	Athens	Greece
+LFSB	BSL	EuroAirport Basel-Mulhouse-Freiburg Airport	Bale/Mulhouse	France
+EGTE	EXT	Exeter International Airport	Exeter	United Kingdom
+LICJ	PMO	Falcone–Borsellino Airport	Palermo	Italy
+LPFR	FAO	Faro Airport	Faro	Portugal
+LPPR	OPO	Francisco de Sa Carneiro Airport	Porto	Portugal
+EDDF	FRA	Frankfurt am Main Airport	Frankfurt am Main	Germany
+EPGD	GDN	Gdansk Lech Walesa Airport	Gdansk	Poland
+LSGG	GVA	Geneva Airport	Geneva	Switzerland
+LIMJ	GOA	Genoa Cristoforo Colombo Airport	Genova	Italy
+EGAC	BHD	George Best Belfast City Airport	Belfast	United Kingdom
+EGPF	GLA	Glasgow International Airport	Glasgow	United Kingdom
+ESGG	GOT	Gothenburg-Landvetter Airport	Gothenburg	Sweden
+GCLP	LPA	Gran Canaria Airport	Gran Canaria Island	Spain
+URMG	GRV	Grozny North Airport	Grozny	Russia
+EDDH	HAM	Hamburg Airport	Hamburg	Germany
+EDDV	HAJ	Hannover Airport	Hannover	Germany
+EFHK	HEL	Helsinki Vantaa Airport	Helsinki	Finland
+LROP	OTP	Bucharest Henri Coandă International Airport	Bucharest	Romania
+LGIR	HER	Heraklion International Nikos Kazantzakis Airport	Heraklion	Greece
+LPPT	LIS	Humberto Delgado Airport (Lisbon Portela Airport)	Lisbon	Portugal
+LIME	BGY	Il Caravaggio International Airport	Bergamo	Italy
+LPPD	PDL	Joao Paulo II Airport	Ponta Delgada	Portugal
+EDSB	FKB	Karlsruhe Baden-Baden Airport	Baden-Baden	Germany
+EPKT	KTW	Katowice International Airport	Katowice	Poland
+UWKD	KZN	Kazan International Airport	Kazan	Russia
+BIKF	KEF	Keflavik International Airport	Reykjavik	Iceland
+UKHH	HRK	Kharkiv International Airport	Kharkiv	Ukraine
+EPKK	KRK	Krakow John Paul II International Airport	Krakow	Poland
+UWWW	KUF	Kurumoch International Airport	Samara	Russia
+GCLA	SPC	La Palma Airport	Sta Cruz de la Palma, La Palma Island	Spain
+LPLA	TER	Lajes Airport	Praia da Vitoria	Portugal
+EGNM	LBA	Leeds Bradford Airport	Leeds	United Kingdom
+EDDP	LEJ	Leipzig/Halle Airport	Leipzig	Germany
+EETN	TLL	Tallinn Airport	Tallinn	Estonia
+LIRF	FCO	Rome–Fiumicino International Airport "Leonardo da Vinci"	Rome	Italy
+EBLG	LGG	Liege Airport	Liege	Belgium
+EGGP	LPL	Liverpool John Lennon Airport	Liverpool	United Kingdom
+LJLJ	LJU	Ljubljana Joze Pucnik Airport	Ljubljana	Slovenia
+EGKK	LGW	London Gatwick Airport	London	United Kingdom
+EGLL	LHR	London Heathrow Airport	London	United Kingdom
+EGGW	LTN	London Luton Airport	London	United Kingdom
+EGSS	STN	London Stansted Airport	London	United Kingdom
+ESPA	LLA	Lulea Airport	Lulea	Sweden
+ELLX	LUX	Luxembourg-Findel International Airport	Luxembourg	Luxembourg
+LFLL	LYS	Lyon Saint-Exupery Airport	Lyon	France
+LZIB	BTS	Bratislava Airport	Bratislava	Slovakia
+LEMG	AGP	Malaga Airport	Malaga	Spain
+ESMS	MMX	Malmo Airport	Malmo	Sweden
+LIMC	MXP	Malpensa International Airport	Milan	Italy
+LMML	MLA	Malta International Airport	Valletta	Malta
+EGCC	MAN	Manchester Airport	Manchester	United Kingdom
+LFML	MRS	Marseille Provence Airport	Marseille	France
+LIML	LIN	Milano Linate Airport	Milan	Italy
+UMMS	MSQ	Minsk National Airport	Minsk	Belarus
+EPMO	WMI	Modlin Airport	Warsaw	Poland
+EDDM	MUC	Munich Airport	Munich	Germany
+EDDG	FMO	Munster Osnabruck Airport	Munster	Germany
+LIRN	NAP	Naples International Airport	Napoli	Italy
+EGNT	NCL	Newcastle Airport	Newcastle	United Kingdom
+LFMN	NCE	Nice-Cote d'Azur Airport	Nice	France
+EGSH	NWI	Norwich International Airport	Norwich	United Kingdom
+EDDN	NUE	Nuremberg Airport	Nuremberg	Germany
+UKOO	ODS	Odessa International Airport	Odessa	Ukraine
+ENGM	OSL	Oslo Gardermoen Airport	Oslo	Norway
+LEPA	PMI	Palma De Mallorca Airport	Palma De Mallorca	Spain
+LFPO	ORY	Paris-Orly Airport	Paris	France
+LIRP	PSA	Pisa International Airport	Pisa	Italy
+URRP	ROV	Platov International Airport	Rostov-on-Don	Russia
+LYPG	TGD	Podgorica Airport	Podgorica	Montenegro
+EPPO	POZ	Poznan-Lawica Airport	Poznan	Poland
+BKPR	PRN	Pristina International Airport	Prishtina	Kosovo
+ULLI	LED	Pulkovo Airport	St. Petersburg	Russia
+LCRA	AKT	RAF Akrotiri	Akrotiri	United Kingdom
+EGVN	BZZ	RAF Brize Norton	Brize Norton	United Kingdom
+EGVA	FFD	RAF Fairford	Fairford	United Kingdom
+EGUL	LKZ	RAF Lakenheath	Lakenheath	United Kingdom
+EGUN	MHZ	RAF Mildenhall	Mildenhall	United Kingdom
+ETAR	RMS	Ramstein Air Base	Ramstein	Germany
+EVRA	RIX	Riga International Airport	Riga	Latvia
+EGCN	DSA	Robin Hood Doncaster Sheffield Airport	Doncaster	United Kingdom
+LEST	SCQ	Santiago de Compostela Airport	Santiago de Compostela	Spain
+LQSA	SJJ	Sarajevo International Airport	Sarajevo	Bosnia and Herzegovina
+EINN	SNN	Shannon Airport	Shannon	Ireland
+UUEE	SVO	Sheremetyevo International Airport	Moscow	Russia
+UKFF	SIP	Simferopol International Airport	Simferopol	Ukraine
+LWSK	SKP	Skopje Alexander the Great Airport	Skopje	Macedonia
+URSS	AER	Sochi International Airport	Sochi	Russia
+LBSF	SOF	Sofia Airport	Sofia	Bulgaria
+EGHI	SOU	Southampton Airport	Southampton	United Kingdom
+ENZV	SVG	Stavanger Airport Sola	Stavanger	Norway
+ESSA	ARN	Stockholm Arlanda Airport	Stockholm	Sweden
+EDDS	STR	Stuttgart Airport	Stuttgart	Germany
+GCXO	TFN	Tenerife North Airport	Tenerife Island	Spain
+GCTS	TFS	Tenerife South Airport	Tenerife Island	Spain
+LGTS	SKG	Thessaloniki Macedonia International Airport	Thessaloniki	Greece
+LATI	TIA	Tirana International Airport Mother Teresa	Tirana	Albania
+LFBO	TLS	Toulouse-Blagnac Airport	Toulouse/Blagnac	France
+LIPH	TSF	Treviso-Sant'Angelo Airport	Treviso	Italy
+ENTC	TOS	Tromso Airport	Tromso	Norway
+ENVA	TRD	Trondheim Airport Vaernes	Trondheim	Norway
+LIMF	TRN	Turin Airport	Torino	Italy
+UWUU	UFA	Ufa International Airport	Ufa	Russia
+LKPR	PRG	Vaclav Havel Airport Prague	Prague	Czechia
+LBWN	VAR	Varna Airport	Varna	Bulgaria
+LIPZ	VCE	Venice Marco Polo Airport	Venice	Italy
+LIPX	VRN	Verona Villafranca Airport	Verona	Italy
+LOWW	VIE	Vienna International Airport	Vienna	Austria
+EYVI	VNO	Vilnius International Airport	Vilnius	Lithuania
+UUWW	VKO	Vnukovo International Airport	Moscow	Russia
+EPWA	WAW	Warsaw Chopin Airport	Warsaw	Poland
+UNKL	KJA	Yemelyanovo Airport	Krasnoyarsk	Russia
+LDZA	ZAG	Zagreb Airport	Zagreb	Croatia
+UUBW	ZIA	Zhukovsky International Airport	Moscow	Russia
+LSZH	ZRH	Zurich Airport	Zurich	Switzerland
+KSPI	SPI	Abraham Lincoln Capital Airport	Springfield	United States
+KABQ	ABQ	Albuquerque International Sunport	Albuquerque	United States
+KLTS	LTS	Altus Air Force Base	Altus	United States
+KAVL	AVL	Asheville Regional Airport	Asheville	United States
+KAGS	AGS	Augusta Regional At Bush Field	Augusta	United States
+KAUS	AUS	Austin Bergstrom International Airport	Austin	United States
+KGRB	GRB	Austin Straubel International Airport	Green Bay	United States
+KBWI	BWI	Baltimore/Washington International Thurgood Marshall Airport	Baltimore	United States
+KBGR	BGR	Bangor International Airport	Bangor	United States
+KBAD	BAD	Barksdale Air Force Base	Bossier City	United States
+KBAB	BAB	Beale Air Force Base	Marysville	United States
+KLIT	LIT	Bill & Hillary Clinton National Airport/Adams Field	Little Rock	United States
+KBIL	BIL	Billings Logan International Airport	Billings	United States
+KBHM	BHM	Birmingham-Shuttlesworth International Airport	Birmingham	United States
+KLEX	LEX	Blue Grass Airport	Lexington	United States
+KBFI	BFI	Boeing Field King County International Airport	Seattle	United States
+KBOI	BOI	Boise Air Terminal/Gowen Field	Boise	United States
+KBDL	BDL	Bradley International Airport	Hartford	United States
+KBUF	BUF	Buffalo Niagara International Airport	Buffalo	United States
+CYYC	YYC	Calgary International Airport	Calgary	Canada
+MMUN	CUN	Cancun International Airport	Cancun	Mexico
+KCVS	CVS	Cannon Air Force Base	Clovis	United States
+KBMI	BMI	Central Illinois Regional Airport at Bloomington-Normal	Bloomington/Normal	United States
+KCHS	CHS	Charleston Air Force Base-International Airport	Charleston	United States
+KCLT	CLT	Charlotte Douglas International Airport	Charlotte	United States
+KMDW	MDW	Chicago Midway International Airport	Chicago	United States
+KORD	ORD	Chicago O'Hare International Airport	Chicago	United States
+KRFD	RFD	Chicago Rockford International Airport	Chicago/Rockford	United States
+KCVG	CVG	Cincinnati/Northern Kentucky International Airport	Cincinnati	United States
+KCOS	COS	City of Colorado Springs Municipal Airport	Colorado Springs	United States
+KCLE	CLE	Cleveland Hopkins International Airport	Cleveland	United States
+KCAE	CAE	Columbia Metropolitan Airport	Columbia	United States
+KCBM	CBM	Columbus Air Force Base	Columbus	United States
+KCRP	CRP	Corpus Christi International Airport	Corpus Christi	United States
+KDFW	DFW	Dallas Fort Worth International Airport	Dallas-Fort Worth	United States
+KDAL	DAL	Dallas Love Field Airport	Dallas	United States
+KMSN	MSN	Dane County Regional Truax Field	Madison	United States
+PHNL	HNL	Daniel K. Inouye International Airport	Honolulu	United States
+MRLB	LIR	Daniel Oduber Quiros International Airport	Liberia	Costa Rica
+KDAB	DAB	Daytona Beach International Airport	Daytona Beach	United States
+KDEN	DEN	Denver International Airport	Denver	United States
+KDSM	DSM	Des Moines International Airport	Des Moines	United States
+KVPS	VPS	Destin-Ft Walton Beach Airport	Valparaiso	United States
+KDTW	DTW	Detroit Metropolitan Airport	Detroit	United States
+KDLF	DLF	DLF Airport	Del Rio	United States
+KMGE	MGE	Dobbins Air Reserve Base	Marietta	United States
+MMGL	GDL	Don Miguel Hidalgo Y Costilla International Airport	Guadalajara	Mexico
+KDOV	DOV	Dover Air Force Base	Dover	United States
+KDBQ	DBQ	Dubuque Regional Airport	Dubuque	United States
+KDLH	DLH	Duluth International Airport	Duluth	United States
+KDYS	DYS	Dyess Air Force Base	Abilene	United States
+CYEG	YEG	Edmonton International Airport	Edmonton	Canada
+KEDW	EDW	Edwards Air Force Base	Edwards	United States
+KOMA	OMA	Eppley Airfield	Omaha	United States
+KERI	ERI	Erie International Tom Ridge Field	Erie	United States
+PAFA	FAI	Fairbanks International Airport	Fairbanks	United States
+KSKA	SKA	Fairchild Air Force Base	Spokane	United States
+KFLL	FLL	Fort Lauderdale Hollywood International Airport	Fort Lauderdale	United States
+KFSM	FSM	Fort Smith Regional Airport	Fort Smith	United States
+KFWA	FWA	Fort Wayne International Airport	Fort Wayne	United States
+KAFW	AFW	Fort Worth Alliance Airport	Fort Worth	United States
+KFTW	FTW	Fort Worth Meacham International Airport	Fort Worth	United States
+MMTJ	TIJ	General Abelardo L. Rodríguez International Airport	Tijuana	Mexico
+KBOS	BOS	Logan International Airport	Boston	United States
+MMHO	HMO	General Ignacio P. Garcia International Airport	Hermosillo	Mexico
+MMAA	ACA	General Juan N Alvarez International Airport	Acapulco	Mexico
+MMMY	MTY	General Mariano Escobedo International Airport	Monterrey	Mexico
+KMKE	MKE	General Mitchell International Airport	Milwaukee	United States
+KPIA	PIA	General Wayne A. Downing Peoria International Airport	Peoria	United States
+KIAH	IAH	George Bush Intercontinental Airport	Houston	United States
+KROC	ROC	Greater Rochester International Airport	Rochester	United States
+KGSP	GSP	Greenville Spartanburg International Airport	Greenville	United States
+KGUS	GUS	Grissom Air Reserve Base	Peru	United States
+KGPT	GPT	Gulfport Biloxi International Airport	Gulfport	United States
+CYHZ	YHZ	Halifax / Stanfield International Airport	Halifax	Canada
+KATL	ATL	Hartsfield-Jackson Atlanta International Airport	Atlanta	United States
+KHMN	HMN	Holloman Air Force Base	Alamogordo	United States
+KHSV	HSV	Huntsville International Carl T Jones Field	Huntsville	United States
+KIND	IND	Indianapolis International Airport	Indianapolis	United States
+KJAN	JAN	Jackson-Medgar Wiley Evers International Airport	Jackson	United States
+KJAX	JAX	Jacksonville International Airport	Jacksonville	United States
+KDAY	DAY	James M Cox Dayton International Airport	Dayton	United States
+KJFK	JFK	John F. Kennedy International Airport	New York	United States
+KCMH	CMH	John Glenn Columbus International Airport	Columbus	United States
+KSNA	SNA	John Wayne Airport-Orange County Airport	Santa Ana	United States
+KADW	ADW	Andrews Air Force Base	Camp Springs	United States
+KJLN	JLN	Joplin Regional Airport	Joplin	United States
+MUHA	HAV	Jose Marti International Airport	Havana	Cuba
+MUVR	VRA	Juan Gualberto Gomez International Airport	Varadero	Cuba
+KMCI	MCI	Kansas City International Airport	Kansas City	United States
+MGGT	GUA	La Aurora Airport	Guatemala City	Guatemala
+KLGA	LGA	La Guardia Airport	New York	United States
+KLFT	LFT	Lafayette Regional Airport	Lafayette	United States
+KLFI	LFI	Langley Air Force Base	Hampton	United States
+MDSD	SDQ	Las Americas International Airport	Santo Domingo	Dominican Republic
+CYYZ	YYZ	Toronto Pearson International Airport	Toronto	Canada
+MMMX	MEX	Mexico City International Airport	Mexico City	Mexico
+MMPR	PVR	Licenciado Gustavo Diaz Ordaz International Airport	Puerto Vallarta	Mexico
+KLAX	LAX	Los Angeles International Airport	Los Angeles	United States
+MMSD	SJD	Los Cabos International Airport	San Jose del Cabo	Mexico
+KMSY	MSY	Louis Armstrong New Orleans International Airport	New Orleans	United States
+KSDF	SDF	Louisville International Airport	Louisville	United States
+KCHA	CHA	Lovell Field	Chattanooga	United States
+KLBB	LBB	Lubbock Preston Smith International Airport	Lubbock	United States
+TJSJ	SJU	Luis Munoz Marin International Airport	San Juan	Puerto Rico
+KLUF	LUF	Luke Air Force Base	Glendale	United States
+MYNN	NAS	Lynden Pindling International Airport	Nassau	Bahamas
+KMCF	MCF	Mac Dill Air Force Base	Tampa	United States
+KMHT	MHT	Manchester-Boston Regional Airport	Manchester	United States
+KMBS	MBS	MBS International Airport	Saginaw	United States
+KLAS	LAS	McCarran International Airport	Las Vegas	United States
+KTCM	TCM	McChord Air Force Base	Tacoma	United States
+KTYS	TYS	McGhee Tyson Airport	Knoxville	United States
+KMEM	MEM	Memphis International Airport	Memphis	United States
+KOAK	OAK	Metropolitan Oakland International Airport	Oakland	United States
+KMIA	MIA	Miami International Airport	Miami	United States
+KMSP	MSP	Minneapolis–Saint Paul International Airport	Minneapolis	United States
+KMOB	MOB	Mobile Regional Airport	Mobile	United States
+KMLU	MLU	Monroe Regional Airport	Monroe	United States
+MSLP	SAL	Monsenor Oscar Arnulfo Romero International Airport	San Salvador (San Luis Talpa)	El Salvador
+KMGM	MGM	Montgomery Regional (Dannelly Field) Airport	Montgomery	United States
+CYUL	YUL	Montreal / Pierre Elliott Trudeau International Airport	Montreal	Canada
+KMUO	MUO	Mountain Home Air Force Base	Mountain Home	United States
+KBNA	BNA	Nashville International Airport	Nashville	United States
+KEWR	EWR	Newark Liberty International Airport	Newark	United States
+KPHF	PHF	Newport News Williamsburg International Airport	Newport News	United States
+KORF	ORF	Norfolk International Airport	Norfolk	United States
+MKJP	KIN	Norman Manley International Airport	Kingston	Jamaica
+KSJC	SJC	Norman Y. Mineta San Jose International Airport	San Jose	United States
+KONT	ONT	Ontario International Airport	Ontario	United States
+KMCO	MCO	Orlando International Airport	Orlando	United States
+KSFB	SFB	Orlando Sanford International Airport	Orlando	United States
+CYOW	YOW	Ottawa Macdonald-Cartier International Airport	Ottawa	Canada
+MWCR	GCM	Owen Roberts International Airport	Georgetown	Cayman Islands
+KPBI	PBI	Palm Beach International Airport	West Palm Beach	United States
+KPHL	PHL	Philadelphia International Airport	Philadelphia	United States
+MZBZ	BZE	Philip S. W. Goldson International Airport	Belize City	Belize
+KPHX	PHX	Phoenix Sky Harbor International Airport	Phoenix	United States
+KGSO	GSO	Piedmont Triad International Airport	Greensboro	United States
+KPIT	PIT	Pittsburgh International Airport	Pittsburgh	United States
+TFFR	PTP	Pointe-a-Pitre Le Raizet	Pointe-a-Pitre	Guadeloupe
+KPDX	PDX	Portland International Airport	Portland	United States
+KPWM	PWM	Portland International Jetport Airport	Portland	United States
+TNCM	SXM	Princess Juliana International Airport	Saint Martin	Sint Maarten
+MDPC	PUJ	Punta Cana International Airport	Punta Cana	Dominican Republic
+KMLI	MLI	Quad City International Airport	Moline	United States
+KRDU	RDU	Raleigh Durham International Airport	Raleigh/Durham	United States
+KRND	RND	Randolph Air Force Base	Universal City	United States
+KHIB	HIB	Range Regional Airport	Hibbing	United States
+KRNO	RNO	Reno Tahoe International Airport	Reno	United States
+KRIC	RIC	Richmond International Airport	Richmond	United States
+KAMA	AMA	Rick Husband Amarillo International Airport	Amarillo	United States
+KLCK	LCK	Rickenbacker International Airport	Columbus	United States
+KROA	ROA	Roanoke–Blacksburg Regional Airport	Roanoke	United States
+KWRB	WRB	Robins Air Force Base	Warner Robins	United States
+KRST	RST	Rochester International Airport	Rochester	United States
+KDCA	DCA	Ronald Reagan Washington National Airport	Washington	United States
+KSMF	SMF	Sacramento International Airport	Sacramento	United States
+KSLC	SLC	Salt Lake City International Airport	Salt Lake City	United States
+KSAT	SAT	San Antonio International Airport	San Antonio	United States
+KSAN	SAN	San Diego International Airport	San Diego	United States
+KSFO	SFO	San Francisco International Airport	San Francisco	United States
+KSRQ	SRQ	Sarasota Bradenton International Airport	Sarasota/Bradenton	United States
+KSAV	SAV	Savannah Hilton Head International Airport	Savannah	United States
+KBLV	BLV	Scott AFB/Midamerica Airport	Belleville	United States
+KSEA	SEA	Seattle-Tacoma International Airport	Seattle	United States
+KGSB	GSB	Seymour Johnson Air Force Base	Goldsboro	United States
+KSSC	SSC	Shaw Air Force Base	Sumter	United States
+KSPS	SPS	Sheppard Air Force Base-Wichita Falls Municipal Airport	Wichita Falls	United States
+KSUX	SUX	Sioux Gateway Col. Bud Day Field	Sioux City	United States
+KSBN	SBN	South Bend Regional Airport	South Bend	United States
+KRSW	RSW	Southwest Florida International Airport	Fort Myers	United States
+KSUS	SUS	Spirit of St Louis Airport	St Louis	United States
+KGEG	GEG	Spokane International Airport	Spokane	United States
+KSGF	SGF	Springfield Branson National Airport	Springfield	United States
+KSTL	STL	St Louis Lambert International Airport	St Louis	United States
+CYYT	YYT	St. John's International Airport	St. John's	Canada
+KSYR	SYR	Syracuse Hancock International Airport	Syracuse	United States
+KTLH	TLH	Tallahassee Regional Airport	Tallahassee	United States
+KTPA	TPA	Tampa International Airport	Tampa	United States
+PANC	ANC	Ted Stevens Anchorage International Airport	Anchorage	United States
+KCID	CID	The Eastern Iowa Airport	Cedar Rapids	United States
+KPVD	PVD	Theodore Francis Green State Airport	Providence	United States
+KTIK	TIK	Tinker Air Force Base	Oklahoma City	United States
+MPTO	PTY	Tocumen International Airport	Tocumen	Panama
+KTOL	TOL	Toledo Express Airport	Toledo	United States
+KSUU	SUU	Travis Air Force Base	Fairfield	United States
+KTRI	TRI	Tri-Cities Regional TN/VA Airport	Bristol/Johnson/Kingsport	United States
+KHTS	HTS	Tri-State/Milton J. Ferguson Field	Huntington	United States
+KTUS	TUS	Tucson International Airport	Tucson	United States
+KTUL	TUL	Tulsa International Airport	Tulsa	United States
+KPAM	PAM	Tyndall Air Force Base	Panama City	United States
+KEND	END	Vance Air Force Base	Enid	United States
+CYVR	YVR	Vancouver International Airport	Vancouver	Canada
+KVBG	VBG	Vandenberg Air Force Base	Lompoc	United States
+CYYJ	YYJ	Victoria International Airport	Victoria	Canada
+KIAD	IAD	Washington Dulles International Airport	Washington	United States
+KSZL	SZL	Whiteman Air Force Base	Knob Noster	United States
+KICT	ICT	Wichita Eisenhower National Airport	Wichita	United States
+KOKC	OKC	Will Rogers World Airport	Oklahoma City	United States
+KHOU	HOU	William P Hobby Airport	Houston	United States
+CYWG	YWG	Winnipeg / James Armstrong Richardson International Airport	Winnipeg	Canada
+KFFO	FFO	Wright-Patterson Air Force Base	Dayton	United States
+KCRW	CRW	Yeager Airport	Charleston	United States
+YPAD	ADL	Adelaide International Airport	Adelaide	Australia
+PGUM	GUM	Antonio B. Won Pat International Airport	Hagatna, Guam International Airport	Guam
+NZAA	AKL	Auckland International Airport	Auckland	New Zealand
+YBBN	BNE	Brisbane International Airport	Brisbane	Australia
+YSCB	CBR	Canberra International Airport	Canberra	Australia
+NZCH	CHC	Christchurch International Airport	Christchurch	New Zealand
+NTAA	PPT	Faa'a International Airport	Papeete	French Polynesia
+YMML	MEL	Melbourne International Airport	Melbourne	Australia
+YPPH	PER	Perth International Airport	Perth	Australia
+AYPY	POM	Port Moresby Jacksons International Airport	Port Moresby	Papua New Guinea
+NCRG	RAR	Rarotonga International Airport	Avarua	Cook Islands
+YSSY	SYD	Sydney Airport	Sydney	Australia
+NZWN	WLG	Wellington International Airport	Wellington	New Zealand
+SBCT	CWB	Afonso Pena Airport	Curitiba	Brazil
+SPZO	CUZ	Alejandro Velasco Astete International Airport	Cusco	Peru
+SUMU	MVD	Carrasco International /General C L Berisso Airport	Montevideo	Uruguay
+SCEL	SCL	Comodoro Arturo Merino Benítez International Airport	Santiago	Chile
+SBSP	CGH	Sao Paulo–Congonhas Airport	Sao Paulo	Brazil
+SELT	LTX	Cotopaxi International Airport	Latacunga	Ecuador
+SBSV	SSA	Deputado Luiz Eduardo Magalhaes International Airport	Salvador	Brazil
+SKBO	BOG	El Dorado International Airport	Bogota	Colombia
+SVBC	BLA	General Jose Antonio Anzoategui International Airport	Barcelona	Venezuela
+SBSG	NAT	Governador Aluizio Alves International Airport	Natal	Brazil
+SBFL	FLN	Hercílio Luz International Airport	Florianopolis	Brazil
+SPJC	LIM	Jorge Chavez International Airport	Lima	Peru
+SEQM	UIO	Mariscal Sucre International Airport	Quito	Ecuador
+SAEZ	EZE	Ministro Pistarini International Airport	Buenos Aires	Argentina
+SBBR	BSB	Brasilia International Airport	Brasilia	Brazil
+SBGL	GIG	Galeao International Airport	Rio De Janeiro	Brazil
+SVMI	CCS	Simon Bolivar International Airport	Caracas	Venezuela
+SBCF	CNF	Tancredo Neves International Airport	Belo Horizonte	Brazil
+SBBE	BEL	Val de Cans/Julio Cezar Ribeiro International Airport	Belem	Brazil
+SLVR	VVI	Viru Viru International Airport	Santa Cruz	Bolivia
