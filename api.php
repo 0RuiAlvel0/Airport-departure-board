@@ -5,7 +5,7 @@
 	
 	//Provides connection to the API that delivers airport arrival and departure times
 	//API related settings:
-	$api_key = "be4a2308-dbc8-499b-8b80-959a23889660";
+	$api_key = "YOUR-API_KEY-HERE";
 	$api_base = "https://airlabs.co/api/v9/";
 	
 	//read the settings file and get the selected ICAO airport 4 letter code
