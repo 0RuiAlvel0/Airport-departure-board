@@ -2,25 +2,26 @@
 	//Get request posted data - at this moment only the number of data rows we have to send out:
 	//Currently this is defined at the top of base.php
 	$num_of_rows = $_POST['num_of_rows'];
-	
+
 	//Provides connection to the API that delivers airport arrival and departure times
 	//API related settings:
+	//$api_key = "YOUR-API_KEY-HERE";
 	$api_key = "YOUR-API_KEY-HERE";
 	$api_base = "https://airlabs.co/api/v9/";
-	
+
 	//read the settings file and get the selected ICAO airport 4 letter code
 	$settings_file = fopen("settings", "r") or die("Unable to open settings file!");
 	$contents = fread($settings_file, filesize("settings"));
 	$apt_code = explode("\t", $contents);
 	$icao_code = trim($apt_code[0]);
 	fclose($settings_file);
-	
+
 	//Make the API request for arrivals
 	$params = array();
 	$params["arr_icao"] = $icao_code;
 	$params["api_key"] = $api_key;
 	$arrivals_results = apiCall($api_base, 'schedules', $params);
-	
+
 	//Make the API request for departures
 	$params = array();
 	$params["dep_icao"] = $icao_code;
@@ -49,24 +50,25 @@
 	$utc_timestamp = $utc->getTimestamp();
 	$now = $utc_timestamp + ($data['utc_offset'] * 60 * 60);
 
-        //Send out arrival data formatted for the output
-        //time, carrier logo, flight, origin, status
+    //Send out arrival data formatted for the output
+    //time, carrier logo, flight, origin, status
 	$row = -1;
-	for($i = 0; $i < sizeof($arrivals_results["response"]); $i++){
-
-                $earlier = new DateTime($arrivals_results["response"][$i]["arr_time"]);
-                $earlier = $earlier->getTimestamp();
+	$i = 0;
+	while ($i < sizeof($arrivals_results["response"])){
+        $earlier = new DateTime($arrivals_results["response"][$i]["arr_time"]);
+        $earlier = $earlier->getTimestamp();
 		$span = (int)(($now - $earlier) / 3600);
-		if ($span > 0) continue;
-
-                $row = $row + 1;
-
+		if ($span > 0){
+			continue;
+        }
+		$row = $row + 1;
 		$aux = explode(" ", $arrivals_results["response"][$i]["arr_time"]);
 		$data['arrivals'][$row]['arr_time'] = $aux[1];
 		$data['arrivals'][$row]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$arrivals_results["response"][$i]["airline_iata"].".png";
 		$data['arrivals'][$row]['flight_iata'] = substr($arrivals_results["response"][$i]["flight_iata"], 0, 6);
 		//Dep ICAO, for this we need to translate the code to the text of the airport:
 		$data['arrivals'][$row]['origin'] = substr(airport_name($arrivals_results["response"][$i]["dep_icao"]), 0, 13);
+
 		if(trim(strtoupper($arrivals_results["response"][$i]["status"])) != "ACTIVE")
 			$data['arrivals'][$row]['status'] = $arrivals_results["response"][$i]["status"];
 		else{
@@ -74,10 +76,18 @@
 			$data['arrivals'][$row]['status'] = "EST.".$aux[1];
 		}
 
+		//Deal with code share flights. Show only the first flight in situations where the arrival time and the origin between the current flight and the previous.
+		if($row > 0){
+			if(!($data['arrivals'][$row]['arr_time'] == $data['arrivals'][$row-1]['arr_time'] && $data['arrivals'][$row]['origin'] == $data['arrivals'][$row-1]['origin']))
+				$i++;
+        }
+		else
+			$i++;
+
 		if($row >= $num_of_rows){
 			break;
 		}
-	}
+    }
 
 	//No error encountered so far
 	$data['error'] = false;
@@ -87,14 +97,11 @@
 	$row = -1;
 	for($i = 0; $i < sizeof($departures_results["response"]); $i++){
 
-                $earlier = new DateTime($departures_results["response"][$i]["dep_time"]);
-                $earlier = $earlier->getTimestamp();
-                $span = (int)(($now - $earlier) / 3600);
-                if ($span > 0) continue;
-
-                $row = $row + 1;
-                //$data['arrivals'][$row]['span'] = (string)($span);
-
+        $earlier = new DateTime($departures_results["response"][$i]["dep_time"]);
+        $earlier = $earlier->getTimestamp();
+        $span = (int)(($now - $earlier) / 3600);
+        if ($span > 0) continue;
+        $row = $row + 1;
 		$aux = explode(" ", $departures_results["response"][$i]["dep_time"]);
 		$data['departures'][$row]['dep_time'] = $aux[1];
 		$data['departures'][$row]['carrier_logo'] = "https://airlabs.co/img/airline/s/".$departures_results["response"][$i]["airline_iata"].".png";
@@ -116,10 +123,10 @@
 		if($row >= $num_of_rows)
 			break;
 	}
-	
+
 	echo json_encode($data);
 
-		
+
 	//Actually implements the API call
 	function apiCall($api_base, $method, $params) {
 		$c = curl_init(sprintf('%s%s?%s', $api_base, $method, http_build_query($params)));
@@ -128,7 +135,7 @@
 		curl_close($c);
 		return $res;
 	}
-	
+
 	function airport_name($icao_code){
 		$airport_name = '';
 		$lines = file("aptlist");
