@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-                <meta charset="utf-8">
-                <title>Set airport</title>
-                <link rel="stylesheet" href="css.css">
-                <script src="https://kit.fontawesome.com/dd348bbd0a.js" crossorigin="anonymous"></script>
-                <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Set airport</title>
+		<link rel="stylesheet" href="assets/css.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
 	</head>
 
 <body style="text-align:center;">
 
-	<h1>Choose an airport</h1>
+	<h1>Choose an Airport</h1>
 
 	<?php
+		error_reporting(E_ALL);
+		ini_set('display_errors', 1);
 		if(array_key_exists('icao', $_POST)) {
-                        $icao = htmlspecialchars($_POST['icao']);
+            $icao = htmlspecialchars($_POST['icao']);
 			echo "<font color=white>Airport to find : ".$icao."<br/>";
-			$airport_file = fopen("aptlist", "r") or die("Unable to open airport file!");
+			$airport_file = fopen("assets/aptlist", "r") or die("Unable to open airport file!");
 			$found = false;
 			while ((!feof($airport_file)) and (!$found)) {
 				$line = fgets($airport_file);
@@ -25,7 +25,8 @@
 				$found = ($aux[0] == $icao);
 			}
 			fclose($airport_file);
-			if (!$found) echo "Unknown airport !";
+			if (!$found) 
+				echo "Unknown airport !";
 			else {
 				echo "Airport found !";
 				unlink('settings');
@@ -40,17 +41,17 @@
 	<form method="post">
 		<select id="airport" onChange="update()">
 			<option value="LFRB">Brest Bretagne</option>
-                        <option value="VHHH">Hong Kong International Airport</option>
+            <option value="VHHH">Hong Kong International Airport</option>
 			<option value="VTSG">Krabi International Airport</option>
 			<option value="LFLL">Lyon Saint-Exupery</option>
 			<option value="VMMC">Macau International Airport</option>
-                        <option value="LFRS">Nantes Atlantique</option>
-                        <option value="KJFK">New York JFK</option> 
-                        <option value="LFPG">Paris-Charles de Gaulle</option>
-                        <option value="LFPB">Paris-Le Bourget</option>
-                	<option value="LFPO">Paris-Orly</option>
+            <option value="LFRS">Nantes Atlantique</option>
+            <option value="KJFK">New York JFK</option> 
+            <option value="LFPG">Paris-Charles de Gaulle</option>
+            <option value="LFPB">Paris-Le Bourget</option>
+            <option value="LFPO">Paris-Orly</option>
 			<option value="WMKP">Penang International Airport</option>
-                </select>
+    	</select>
                 <input type="hidden" name="icao" id="value">
 		<button> Set airport </button> <input type="button" onclick="location.href='base.php';" value=" Cancel " />
 	</form>
