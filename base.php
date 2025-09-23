@@ -24,8 +24,15 @@
 		<input type="hidden" id="utc_offset" value="0">
 		<table width="100%" class="arrivals_table">
 			<tr>
-				<td><h1><i class="fas fa-plane-arrival"></i>Arrivals</h1></td>
-				<td style="text-align:center;"><h1>Local time: <span class="local_time">12:30</span> | <span class="apt_name">Hong Kong</span> time: <span class="apt_time">12:30</span></h1></td>
+				<td>
+					<h1 style="margin-right: 10px;"><i class="fas fa-plane-arrival"></i>Arrivals</h1>
+				</td>
+				<td>
+					<div style="display: flex; align-items: center; width: 100%;">
+						<h1 style="text-align: center; flex-grow: 1;">Local time: <span class="local_time">12:30</span> | <span class="apt_name">Hong Kong</span> time: <span class="apt_time">12:30</span></h1>
+						<img src="assets/airlabs_logo.svg" style="width:100px; height:auto; margin-left: auto;">
+					</div>
+				</td>
 			</tr>
 		</table>
 		<table width="100%" class="arrivals_table">
@@ -39,8 +46,15 @@
 		</table>
 		<table width="100%" class="departures_table">
 			<tr>
-				<td><h1><i class="fas fa-plane-departure"></i>Departures</h1></td>
-				<td style="text-align:center;"><h1>Local time: <span class="local_time">12:30</span> | <span class="apt_name">Hong Kong</span> time: <span class="apt_time">12:30</span></h1></td>
+				<td>
+					<h1 style="margin-right: 10px;"><i class="fas fa-plane-departure"></i>Departures</h1>
+				</td>
+				<td>
+					<div style="display: flex; align-items: center; width: 100%;">
+						<h1 style="text-align: center; flex-grow: 1;">Local time: <span class="local_time">12:30</span> | <span class="apt_name">Hong Kong</span> time: <span class="apt_time">12:30</span></h1>
+						<img src="assets/airlabs_logo.svg" style="width:100px; height:auto; margin-left: auto;">
+					</div>
+				</td>
 			</tr>
 		</table>
 		<table width="100%" class="departures_table">
