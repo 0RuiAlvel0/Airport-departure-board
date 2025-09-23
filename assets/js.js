@@ -137,6 +137,8 @@ $(document).ready(function() {
 	$('.arrivals_table').show();
 	fill();
 
+	console.log('Initial data load done.');
+
 	//Connect to the API to update data every 30 minutes, otherwise you will be over your monthly quota
 	setInterval(function(){
 	    fill();

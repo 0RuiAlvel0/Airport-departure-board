@@ -1,7 +1,22 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
+﻿# Ignore IDE-specific files and folders
 /.vs
-/.gitignore
-/.gitignore
+/.vscode
+
+# Ignore environment files
+/.env
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore vendor folder (if using Composer)
+vendor/
+
+# Ignore node_modules folder (if using Node.js)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore cache files
+cache/
