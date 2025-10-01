@@ -28,14 +28,12 @@
 	$params = array();
 	$params["arr_icao"] = $icao_code;
 	$params["api_key"] = $api_key;
-	$params["limit"] = 20;
 	$arrivals_results = apiCall($api_base, 'schedules', $params);
 
 	//Make the API request for departures
 	$params = array();
 	$params["dep_icao"] = $icao_code;
 	$params["api_key"] = $api_key;
-	$params["limit"] = 20;
 	$departures_results = apiCall($api_base, 'schedules', $params);
 
 	//No error encountered so far
@@ -61,18 +59,34 @@
 	$utc_timestamp = $utc->getTimestamp();
 	$now = $utc_timestamp + ($data['utc_offset'] * 60 * 60);
 
+	// Sort arrivals by arr_time (HHMM as integer)
+	usort($arrivals_results["response"], function($a, $b) {
+		// Extract time part (HHMM) from arr_time string
+		$a_time = isset($a["arr_time"]) ? intval(str_replace(':', '', substr($a["arr_time"], -5))) : 0;
+		$b_time = isset($b["arr_time"]) ? intval(str_replace(':', '', substr($b["arr_time"], -5))) : 0;
+		return $a_time <=> $b_time;
+	});
+
     //Send out arrival data formatted for the output
     //time, carrier logo, flight, origin, status
 	$row = -1;
 	$i = 0;
 	while ($i < sizeof($arrivals_results["response"])){
-		//$i++;
-        // $earlier = new DateTime($arrivals_results["response"][$i]["arr_time"]);
-        // $earlier = $earlier->getTimestamp();
-		// $span = (int)(($now - $earlier) / 3600);
-		// if ($span > 0){
-		// 	continue;
-        // }
+		// Skip flights that have landed X time ago.
+		$arrival_time_str = $arrivals_results["response"][$i]["arr_time"];
+		$arrival_time = strtotime($arrival_time_str);
+		if ($arrival_time < ($now - 60 * 60) ) { // 1 hour buffer
+			$i++;
+			continue; // Skip past flights
+		}
+
+		// Only show flights for today
+		$arrival_date = date('Y-m-d', $arrival_time);
+		if ($arrival_date != date('Y-m-d', $now)) {
+		    $i++;
+		    continue;
+		}
+
 		$row++;
 		$aux = explode(" ", $arrivals_results["response"][$i]["arr_time"]);
 		$data['arrivals'][$row]['arr_time'] = $aux[1];
@@ -80,24 +94,26 @@
 		$data['arrivals'][$row]['flight_iata'] = substr($arrivals_results["response"][$i]["flight_iata"], 0, 6);
 		//Dep ICAO, for this we need to translate the code to the text of the airport:
 		$data['arrivals'][$row]['origin'] = substr(airport_name($arrivals_results["response"][$i]["dep_iata"]), 0, 13);
-		//$data['arrivals'][$row]['origin'] = 'TEST';
 
-		// NOTE: override the below as status no longer available on free plans
-		// if(trim(strtoupper($arrivals_results["response"][$i]["status"])) != "ACTIVE")
-		// 	$data['arrivals'][$row]['status'] = $arrivals_results["response"][$i]["status"];
-		// else{
-		// 	$aux = explode(" ", $arrivals_results["response"][$i]["arr_estimated"]);
-		// 	$data['arrivals'][$row]['status'] = "EST.".$aux[1];
-		// }
-		$data['arrivals'][$row]['status'] = "ON TIME";
+		// NOTE: decreaed complexity here as status is no longer available on free plans
+		// TODO: consider using arr_estimated to show estimated arrival time if available
+		// if flight arr_time is in the past, mark as LANDED
+		if ($arrival_time < ($now - 5 * 60)) { // 5 minute buffer
+			$data['arrivals'][$row]['status'] = "LANDED";
+		} else {
+			$data['arrivals'][$row]['status'] = "EN ROUTE";
+		}
 
-		//Deal with code share flights. Show only the first flight in situations where the arrival time and the origin between the current flight and the previous.
-		// if($row > 0){
-		// 	if(!($data['arrivals'][$row]['arr_time'] == $data['arrivals'][$row-1]['arr_time'] && $data['arrivals'][$row]['origin'] == $data['arrivals'][$row-1]['origin']))
-		// 		$i++;
-        // }
-		// else
-		//	$i++;
+		// Deal with code share flights. 
+		// Show only the first flight in situations where the arrival time and the origin between the current flight 
+		// and the previous.
+		if($row > 0){
+		 	if(($data['arrivals'][$row]['arr_time'] == $data['arrivals'][$row-1]['arr_time'] && $data['arrivals'][$row]['origin'] == $data['arrivals'][$row-1]['origin'])){
+				// Remove the current row, we do not want to show it
+				unset($data['arrivals'][$row]);
+				$row--;
+			}
+        }
 		$i++;
 
 		if($row >= $num_of_rows){
@@ -108,14 +124,34 @@
 	//No error encountered so far
 	$data['error'] = false;
 
+	// Sort arrivals by arr_time (HHMM as integer)
+	usort($departures_results["response"], function($a, $b) {
+		// Extract time part (HHMM) from dep_time string
+		$a_time = isset($a["dep_time"]) ? intval(str_replace(':', '', substr($a["dep_time"], -5))) : 0;
+		$b_time = isset($b["dep_time"]) ? intval(str_replace(':', '', substr($b["dep_time"], -5))) : 0;
+		return $a_time <=> $b_time;
+	});
+
 	//Send out departure data formatted for the output
 	//time, carrier logo, flight, destination, status
 	$row = -1;
 	for($i = 0; $i < sizeof($departures_results["response"]); $i++){
-        // $earlier = new DateTime($departures_results["response"][$i]["dep_time"]);
-        // $earlier = $earlier->getTimestamp();
-        // $span = (int)(($now - $earlier) / 3600);
-        // if ($span > 0) continue;
+
+		// Skip flights that have already departured
+		$departure_time_str = $departures_results["response"][$i]["dep_time"];
+		$departure_time = strtotime($departure_time_str);
+		if ($departure_time < ($now - 60 * 60)) { // 1 hour buffer
+			$i++;
+			continue; // Skip past flights
+		}
+
+		// Only show flights for today
+		$departure_date = date('Y-m-d', $departure_time);
+		if ($departure_date != date('Y-m-d', $now)) {
+		    $i++;
+		    continue;
+		}
+
         $row++;
 		$aux = explode(" ", $departures_results["response"][$i]["dep_time"]);
 		$data['departures'][$row]['dep_time'] = $aux[1];
@@ -125,18 +161,28 @@
 		$data['departures'][$row]['destination'] = substr(airport_name($departures_results["response"][$i]["arr_iata"]), 0, 13);
 
 		// NOTE: override the below as status no longer available on free plans
-		// $status = trim(strtoupper($departures_results["response"][$i]["status"]));		
-		// if($status != "ACTIVE"){
-		// 	if ($status == "SCHEDULED" and $departures_results["response"][$i]["dep_estimated"] != "") {
-		// 		$aux = explode(" ", $departures_results["response"][$i]["dep_estimated"]);
-		// 		$data['departures'][$row]['status'] = "SCHE.".$aux[1];
-		// 	}
-		// 	else
-		// 		$data['departures'][$row]['status'] = $status;
-		// }
-		// else
-		// 	$data['departures'][$row]['status'] = "EN ROUTE";
-		$data['departures'][$row]['status'] = "EN ROUTE";
+		// if flight dep_time is in the past, mark as DEPARTED
+		// else mark as BOARDING if within 30 minutes of now
+		// else mark as ON TIME
+		if ($departure_time < ($now - 5 * 60)) { // 5 minute buffer
+			$data['departures'][$row]['status'] = "DEPARTED";
+		} elseif ($departure_time <= ($now + 30 * 60)) { // within 30 minutes
+			$data['departures'][$row]['status'] = "BOARDING";
+		} else {
+			$data['departures'][$row]['status'] = "ON TIME";
+		}
+
+		// Deal with code share flights. 
+		// Show only the first flight in situations where the arrival time and the origin between the current flight 
+		// and the previous.
+		if($row > 0){
+		 	if(($data['departures'][$row]['dep_time'] == $data['departures'][$row-1]['dep_time'] && $data['departures'][$row]['destination'] == $data['departures'][$row-1]['destination'])){
+				// Remove the current row, we do not want to show it
+				unset($data['departures'][$row]);
+				$row--;
+			}
+        }
+		$i++;
 
 		if($row >= $num_of_rows)
 			break;
