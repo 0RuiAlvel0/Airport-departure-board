@@ -3,8 +3,8 @@
 ![Preview](https://github.com/commacmms/Airport-departure-board/blob/main/airport.png?raw=true)
 
 ## NOTES
-- airlabs.co has discontinued the release of API keys. I am trying to get in contact with them to see if users of this repo can still have access to it. More news to come (hopefully!).
-- Since the original release 3 years ago, airlabs has made some of the API parameters not available to free users. That broke the script and resulted in an empty table when you ran the script. I have removed the need for all parameters that are no longer available and all is ok except for the status parameter - the right-most column on the table. The value is currently hardcoded to make it work so the right-most column always says the same thing.
+- airlabs.co now makes you go through a verification process in order to approve your free API key. Tell them that you are using this repo and that
+you will not be making many requests. If you can and see the value do consider to become a paid customer.
 
 ## Overview
 This project is designed to run on a system with Apache and PHP. It has been tested with PHP 8.3 on Linux but should work with other configurations. Good results have also been reported using Lighttpd with PHP 7.3. Ensure you have `php-curl` installed. [See here how to install it](https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init).
