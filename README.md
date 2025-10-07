@@ -5,6 +5,7 @@
 ## NOTES
 - airlabs.co now makes you go through a verification process in order to approve your free API key. Tell them that you are using this repo and that
 you will not be making many requests. If you can and see the value do consider to become a paid customer.
+- The css interface is not mine, full credit goes to [this great project](https://github.com/tomgiddings/airport-board) by [Tom Giddings](https://github.com/tomgiddings).
 
 ## Overview
 This project is designed to run on a system with Apache and PHP. It has been tested with PHP 8.3 on Linux but should work with other configurations. Good results have also been reported using Lighttpd with PHP 7.3. Ensure you have `php-curl` installed. [See here how to install it](https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init).
