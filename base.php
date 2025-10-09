@@ -1,6 +1,15 @@
 <?php 
-	//number of data lines:
+	//Read the settings file to get the number of data lines and airport info
+	$settings_file = fopen("settings", "r") or die("Unable to open settings file!");
+	$contents = fread($settings_file, filesize("settings"));
+	fclose($settings_file);
+	$settings_data = explode("\t", $contents);
+	
+	//Get number of rows from settings file, default to 18 if not present
 	$num_of_rows = 18;
+	if(count($settings_data) >= 6 && is_numeric(trim($settings_data[5]))){
+		$num_of_rows = intval(trim($settings_data[5]));
+	}
 ?>
 
 <!DOCTYPE html>
