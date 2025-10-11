@@ -71,9 +71,9 @@
 		<br><br>
 		<label for="num_of_rows" style="color:white;">Number of rows to display:</label>
 		<input type="number" id="num_of_rows" name="num_of_rows" value="<?php echo $current_num_of_rows; ?>" min="1" max="50" style="width: 60px;">
-                <input type="hidden" name="icao" id="value">
+        <input type="hidden" name="icao" id="value">
 		<br><br>
-		<button> Set airport </button> <input type="button" onclick="location.href='base.php';" value=" Cancel " />
+		<button> Save </button> <input type="button" onclick="location.href='base.php';" value=" Cancel " />
 	</form>
 
         <script type="text/javascript">
