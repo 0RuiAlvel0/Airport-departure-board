@@ -8,7 +8,7 @@ you will not be making many requests. If you can and see the value do consider t
 - The css interface is not mine, full credit goes to [this great project](https://github.com/tomgiddings/airport-board) by [Tom Giddings](https://github.com/tomgiddings).
 
 ## Overview
-This project is designed to run on a system with Apache and PHP. It has been tested with PHP 8.3 on Linux but should work with other configurations. Good results have also been reported using Lighttpd with PHP 7.3. Ensure you have `php-curl` installed. [See here how to install it](https://stackoverflow.com/questions/6382539/call-to-undefined-function-curl-init).
+This project is designed to run on a system with Apache and PHP. It has been tested with PHP 8.3 on Linux but should work with other configurations. Good results have also been reported using Lighttpd with PHP 7.3. Ensure you have `php-curl` installed.
 
 ### API Key
 To use this project, you need an API key from [AirLabs](https://airlabs.co/). Create a `.env` file and place it in the root folder. Copy the contents of `.env.template` into it and insert your API key into `.env`.
@@ -17,13 +17,6 @@ To use this project, you need an API key from [AirLabs](https://airlabs.co/). Cr
 The free version of the API allows up to 1,000 requests per month. You can request double that (2,000 requests per month) by following the instructions in the automated email you receive upon registration. With 2,000 requests per month:
 - You can make **64 requests per day** in a 31-day month.
 - This equates to **2 requests per hour** or **1 request every 30 minutes**.
-
-### Configuration
-Once you copy the files to your root folder, navigate to `base.php` to see the application in action.
-
-You can configure the number of rows displayed in the arrivals and departures lists by editing the top of the `base.php` file. This allows you to adjust the results list to fit your screen size.
-
----
 
 ## Installation
 1. Clone the repository:
@@ -48,21 +41,7 @@ You can configure the number of rows displayed in the arrivals and departures li
    sudo chown www-data:www-data settings
    ```
 
-6. Open `base.php` in your browser to view the application.
-
----
-
-## Contributor Notes
-### Additional Comments by [corbelr](https://github.com/corbelr) (OLD)
-This fork includes many new features and improvements. Please note:
-- This code does **NOT** work on a computer running Lighttpd 1.4/PHP 7.4. Use Apache 2/PHP 7.4 for best results.
-- Since the Apache 2 process runs under the `www-data` identity, you must change the owner/group of the directory containing the code (e.g., `adb`). Run the following commands in the terminal:
-   ```
-   cd /var/www/html
-   sudo chown -R www-data:www-data ./adb
-   ```
-
----
+6. Open `base.php` in your browser. You should see a screen that toggles between a flight list of arrivals and departures every 45 seconds.
 
 ## Have Fun!
 Feel free to report bugs, submit new features, or fork this repository to contribute to the project!
