@@ -43,5 +43,10 @@ The free version of the API allows up to 1,000 requests per month. You can reque
 
 6. Open `base.php` in your browser. You should see a screen that toggles between a flight list of arrivals and departures every 45 seconds.
 
+7. You can add additional aiports as long as you know the ICAO code. When you get the ICAO code, go to settings.php and add that as a select option like this:
+   ```
+   <option value="ICAO_CODE_HERE>">THE AIRPORT NAME</option>
+   ```
+
 ## Have Fun!
 Feel free to report bugs, submit new features, or fork this repository to contribute to the project!

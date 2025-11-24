@@ -67,6 +67,7 @@
             <option value="LFPB">Paris-Le Bourget</option>
             <option value="LFPO">Paris-Orly</option>
 			<option value="WMKP">Penang International Airport</option>
+			<option value="KPHL">Philadelphia International Airport</option>
     	</select>
 		<br><br>
 		<label for="num_of_rows" style="color:white;">Number of rows to display:</label>
