@@ -22,12 +22,25 @@ function fill(){
 		success:
 			function(data){
 				if(!data['error']){
+
 					$('.apt_name').html(data['airport']);
 					$('#utc_offset').val(data['utc_offset']);
-					for(i = 0; i < $('#num_of_rows').val(); i++){
-						//****ARRIVALS
+
+					var arrivalsCount = data.arrivals ? data.arrivals.length : 0;
+					var departuresCount = data.departures ? data.departures.length : 0;
+
+					if(arrivalsCount > $('#num_of_rows').val()){
+						arrivalsCount = $('#num_of_rows').val();
+					}
+					
+					if(departuresCount > $('#num_of_rows').val()){
+						departuresCount = $('#num_of_rows').val();
+					}
+
+					//****ARRIVALS
+					for(i = 0; i < arrivalsCount; i++){
 						arrivals_section_contents = '';
- 						//arrival time
+						//arrival time
 						chars = data['arrivals'][i]['arr_time'].split('');
 						for (char = 0; char < chars.length; char++){
 							if(chars[char] != ':')
@@ -60,7 +73,7 @@ function fill(){
 						chars = [];
 						arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-blank"></span>';
 						chars = data['arrivals'][i]['status'].toUpperCase().split('');
-						for (char = 0; char < 10; char++){
+						for (char = 0; char <= 11; char++){
 							if(char >= chars.length)
 								arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-blank"></span>';
 							else{
@@ -68,57 +81,62 @@ function fill(){
 									arrivals_section_contents = arrivals_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
 							}
 						}
-						//****END ARRIVALS
-						//****DEPARTURES
-						departures_section_contents = '';
-						//arrival time
-						chars = data['departures'][i]['dep_time'].split('');
-						for (char = 0; char < chars.length; char++){
-							if(chars[char] != ':')
-								departures_section_contents = departures_section_contents.concat('<span class="letter letter-'+chars[char]+'"></span>');
-						}
-						//carrier logo
-						departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-						departures_section_contents = departures_section_contents + '<img src="'+ data['departures'][i]['carrier_logo' ]+'">';
-						//flight
-						chars = [];
-						chars = Array.from(data['departures'][i]['flight_iata']);
-						for (char = 0; char < 6; char++){
-							if(char >= chars.length)
-								departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-							else
-								departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
-						}
-						//destination
-						chars = [];
-						chars = Array.from(data['departures'][i]['destination'].toUpperCase());
-						//give ity a space between flight number and the destination
-						departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-						for (char = 0; char < 13; char++){
-							if(char >= chars.length)
-								departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-							else
-								departures_section_contents = departures_section_contents + '<span class="letter letter-'+chars[char]+'"></span>';
-						}
-						//status
-						chars = [];
-						departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-						chars = data['departures'][i]['status'].toUpperCase().split('');
-						for (char = 0; char < 10; char++){
-							if(char >= chars.length)
-								departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
-							else{
-								if (chars[char] != ":")
-									departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
-							}
-						}
-						//****END DEPARTURES
-
 						//fill in the table
 						//arrivals: time, carrier logo, flight, origin, status
 						$('#arrivals_'+i).html('<div class="departure-board">'+ arrivals_section_contents +'</div>');
-						//departures: time, carrier logo, flight, destination, status
-						$('#departures_'+i).html('<div class="departure-board">'+ departures_section_contents +'</div>');
+						//****END ARRIVALS
+					}
+
+					//****DEPARTURES
+					for (i = 0; i < departuresCount; i++){
+						departures_section_contents = '';
+						if(data['departures']){
+							//arrival time
+							chars = data['departures'][i]['dep_time'].split('');
+							for (char = 0; char < chars.length; char++){
+								if(chars[char] != ':')
+									departures_section_contents = departures_section_contents.concat('<span class="letter letter-'+chars[char]+'"></span>');
+							}
+							//carrier logo
+							departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+							departures_section_contents = departures_section_contents + '<img src="'+ data['departures'][i]['carrier_logo' ]+'">';
+							//flight
+							chars = [];
+							chars = Array.from(data['departures'][i]['flight_iata']);
+							for (char = 0; char < 6; char++){
+								if(char >= chars.length)
+									departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+								else
+									departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+							}
+							//destination
+							chars = [];
+							chars = Array.from(data['departures'][i]['destination'].toUpperCase());
+							//give ity a space between flight number and the destination
+							departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+							for (char = 0; char < 13; char++){
+								if(char >= chars.length)
+									departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+								else
+									departures_section_contents = departures_section_contents + '<span class="letter letter-'+chars[char]+'"></span>';
+							}
+							//status
+							chars = [];
+							departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+							chars = data['departures'][i]['status'].toUpperCase().split('');
+							for (char = 0; char < 10; char++){
+								if(char >= chars.length)
+									departures_section_contents = departures_section_contents + '<span class="letter letter-blank"></span>';
+								else{
+									if (chars[char] != ":")
+										departures_section_contents = departures_section_contents + '<span class="letter letter-'+ chars[char] +'"></span>';
+								}
+							}
+							//fill in the table
+							//departures: time, carrier logo, flight, destination, status
+							$('#departures_'+i).html('<div class="departure-board">'+ departures_section_contents +'</div>');
+							//****END DEPARTURES
+						}
 					}
 				}
 				else{
