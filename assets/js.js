@@ -29,7 +29,7 @@ function fill(){
 					var arrivalsCount = data.arrivals ? data.arrivals.length : 0;
 					var departuresCount = data.departures ? data.departures.length : 0;
 
-					if(arrivalsCount > $('#num_of_rows').val()){
+					if(arrivalsCount > $('#num_of_rows').val()){ 
 						arrivalsCount = $('#num_of_rows').val();
 					}
 					
